@@ -12,19 +12,19 @@ player:
     - 300
     total: 5
 switches:
-  s_Drain: 72
+  s_Drain: 75
   s_Flipper_Left_Bottom: 232
   s_Flipper_Left_Top: 210
-  s_Flipper_Right_Bottom: 221
-  s_Flipper_Right_Top: 221
-  s_Inlane_Bottom: 9
-  s_Lane_Top_Left: 7
-  s_Lane_Top_Right: 53
+  s_Flipper_Right_Bottom: 222
+  s_Flipper_Right_Top: 222
+  s_Inlane_Bottom: 10
+  s_Lane_Top_Left: 8
+  s_Lane_Top_Right: 55
   s_Left_Bumper: 76
   s_Outlane_Left: 4
   s_Outlane_Right: 3
   s_Right_Bumper: 0
-  s_Roller_1000: 10
+  s_Roller_1000: 11
   s_Rollover_1: 0
   s_Rollover_2: 0
   s_Rollover_3: 0
@@ -50,4 +50,4 @@ switches:
   s_Tilt_Plumb: 0
   s_Tilt_Roll: 0
   s_Tilt_playfield: 0
-  s_Top_Bumper: 65
+  s_Top_Bumper: 66
