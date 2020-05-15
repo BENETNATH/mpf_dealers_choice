@@ -1,0 +1,67 @@
+2020-05-15 16:40:54,039 : kivy : Factory: 184 symbols loaded
+2020-05-15 16:40:54,297 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.1
+2020-05-15 16:40:54,299 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer, img_gif 
+2020-05-15 16:40:54,360 : kivy : VideoFFPy: Using ffpyplayer 4.3.1
+2020-05-15 16:40:54,360 : kivy : Video: Provider: ffpyplayer(['video_ffmpeg'] ignored)
+2020-05-15 16:40:54,452 : kivy : Loading MPF-MC controller
+2020-05-15 16:40:54,458 : YamlMultifileConfigLoader : Machine config file #1: config
+2020-05-15 16:40:54,458 : ConfigProcessor : Config file in cache changed: /home/ben/pinball/config/config
+2020-05-15 16:40:54,459 : ConfigProcessor : Loading config from file /home/ben/.local/lib/python3.6/site-packages/mpfmc/mcconfig.yaml.
+2020-05-15 16:40:54,598 : ConfigProcessor : Loading config: /home/ben/.local/lib/python3.6/site-packages/mpfmc/mcconfig.yaml
+2020-05-15 16:40:54,599 : ConfigProcessor : Loading config from file /home/ben/pinball/config/config.
+2020-05-15 16:40:54,699 : ConfigProcessor : Loading config: /home/ben/pinball/config/config
+2020-05-15 16:40:54,701 : ConfigProcessor : Config file cache created: /tmp/f941a58bd7834786da19a5c85dde1a11.mpf_cache
+2020-05-15 16:40:54,702 : ConfigProcessor : Loading config from cache: /tmp/d964ef655ecb78b725ff15fc39405639.mpf_cache
+2020-05-15 16:40:54,702 : ConfigProcessor : Loading config from cache: /tmp/47f1230cf12d95ec6fd446cbfe48c3da.mpf_cache
+2020-05-15 16:40:54,703 : ConfigProcessor : Loading config from cache: /tmp/55abfb76abba0f6080480ef04b5360ae.mpf_cache
+2020-05-15 16:40:54,703 : ConfigProcessor : Loading config from cache: /tmp/d964ef655ecb78b725ff15fc39405639.mpf_cache
+2020-05-15 16:40:54,704 : mpfmc : Mission Pinball Framework Media Controller v0.54.0-dev.7
+2020-05-15 16:40:54,704 : mpfmc : Mission Pinball Framework Game Engine v0.54.0-dev.34
+2020-05-15 16:40:54,704 : mpfmc : Machine path: /home/ben/pinball
+2020-05-15 16:40:54,704 : mpfmc : Starting clock at 60.0Hz
+2020-05-15 16:40:54,718 : kivy : Text: Provider: sdl2
+2020-05-15 16:40:54,760 : kivy : Window: Provider: sdl2(['window_egl_rpi'] ignored)
+2020-05-15 16:40:55,008 : kivy : GL: Using the "OpenGL" graphics system
+2020-05-15 16:40:55,009 : kivy : GL: Backend used <sdl2>
+2020-05-15 16:40:55,009 : kivy : GL: OpenGL version <b'2.1 Mesa 19.2.8'>
+2020-05-15 16:40:55,009 : kivy : GL: OpenGL vendor <b'Intel Open Source Technology Center'>
+2020-05-15 16:40:55,009 : kivy : GL: OpenGL renderer <b'Mesa DRI Intel(R) 946GZ '>
+2020-05-15 16:40:55,010 : kivy : GL: OpenGL parsed version: 2, 1
+2020-05-15 16:40:55,010 : kivy : GL: Shading version <b'1.20'>
+2020-05-15 16:40:55,010 : kivy : GL: Texture max size <8192>
+2020-05-15 16:40:55,010 : kivy : GL: Texture max units <16>
+2020-05-15 16:40:55,055 : kivy : Window: auto add sdl2 input provider
+2020-05-15 16:40:55,056 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2020-05-15 16:40:55,064 : SoundSystem : SoundSystem: Using default 'sound_system' settings
+2020-05-15 16:40:55,108 : AudioInterface : Initialized
+2020-05-15 16:40:55,109 : SoundSystem : No audio tracks are specified in your machine config file. a track named 'default' has been created.
+2020-05-15 16:40:55,248 : kivy : Base: Start application main loop
+2020-05-15 16:40:55,250 : EventManager : Event: ======'display_window_initialized'====== Args={}
+2020-05-15 16:40:55,265 : mpfmc : Display: Setting 'window' as default display
+2020-05-15 16:40:55,293 : EventManager : Event: ======'displays_initialized'====== Args={}
+2020-05-15 16:40:55,296 : EventManager : Event: ======'slide_window_blank_created'====== Args={}
+2020-05-15 16:40:55,296 : EventManager : Event: ======'display_window_ready'====== Args={}
+2020-05-15 16:40:55,308 : EventManager : Event: ======'init_phase_1'====== Args={}
+2020-05-15 16:40:55,317 : EventManager : Event: ======'mc_ready'====== Args={}
+2020-05-15 16:40:55,317 : EventManager : Event: ======'init_phase_2'====== Args={}
+2020-05-15 16:40:55,320 : EventManager : Event: ======'init_phase_3'====== Args={}
+2020-05-15 16:40:55,321 : EventManager : Event: ======'init_phase_4'====== Args={}
+2020-05-15 16:40:55,321 : EventManager : Event: ======'init_phase_5'====== Args={}
+2020-05-15 16:40:55,321 : EventManager : Event: ======'init_done'====== Args={}
+2020-05-15 16:40:55,322 : MPF-MC BCP Server : Starting up on localhost port 5050
+2020-05-15 16:40:55,323 : MPF-MC BCP Server : Waiting for a connection...
+2020-05-15 16:40:55,323 : mpfmc : SlidePlayer: Play called with settings={'slides': {welcome_slide-None-None: {'priority': None, 'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'transition': None, 'transition_out': None}}}
+2020-05-15 16:40:55,340 : kivy : GL: NPOT texture support is available
+2020-05-15 16:40:55,344 : EventManager : Event: ======'slide_welcome_slide_created'====== Args={}
+2020-05-15 16:40:55,353 : EventManager : Event: ======'slide_welcome_slide_active'====== Args={}
+2020-05-15 16:40:55,371 : EventManager : Event: ======'client_disconnected'====== Args={'host': '127.0.0.1', 'port': 5050}
+2020-05-15 16:40:58,831 : kivy : WindowSDL: exiting mainloop and closing.
+2020-05-15 16:40:58,890 : kivy : Base: Leaving application in progress...
+2020-05-15 16:40:58,895 : mpfmc : Stopping...
+2020-05-15 16:40:58,895 : EventManager : Event: ======'shutdown'====== Args={}
+2020-05-15 16:40:58,955 : mpfmc : Loop rate 73.4 Hz
+2020-05-15 16:40:58,955 : kivy : MC run loop ended.
+2020-05-15 16:40:58,955 : kivy : Stopping child threads... (3 remaining)
+2020-05-15 16:40:59,323 : MPF-MC BCP Server : Stopping BCP sending thread
+2020-05-15 16:40:59,324 : MPF-MC BCP Server : Stopping BCP listener thread
+2020-05-15 16:40:59,359 : kivy : All child threads stopped.

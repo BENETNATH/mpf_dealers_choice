@@ -1,0 +1,96 @@
+2020-05-15 16:40:53,409 : INFO : root : Loading config.
+2020-05-15 16:40:53,414 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2020-05-15 16:40:53,415 : INFO : ConfigProcessor : Loading config from cache: /tmp/f769d6d277b927631eb42efb29e773ab.mpf_cache
+2020-05-15 16:40:53,524 : INFO : ConfigProcessor : Loading config from cache: /tmp/d964ef655ecb78b725ff15fc39405639.mpf_cache
+2020-05-15 16:40:53,525 : INFO : ConfigProcessor : Loading config from cache: /tmp/47f1230cf12d95ec6fd446cbfe48c3da.mpf_cache
+2020-05-15 16:40:53,525 : INFO : ConfigProcessor : Loading config from cache: /tmp/55abfb76abba0f6080480ef04b5360ae.mpf_cache
+2020-05-15 16:40:53,526 : INFO : ConfigProcessor : Loading config from cache: /tmp/d964ef655ecb78b725ff15fc39405639.mpf_cache
+2020-05-15 16:40:53,527 : INFO : ConfigProcessor : Loading config from cache: /tmp/2546fcfb07b4b71824e8d811d5d3d1fc.mpf_cache
+2020-05-15 16:40:53,527 : INFO : ConfigProcessor : Loading config from cache: /tmp/bf35451000d8eb08d7cb6ca13d9c5b7d.mpf_cache
+2020-05-15 16:40:53,528 : INFO : Machine : Mission Pinball Framework Core Engine v0.54.0-dev.34
+2020-05-15 16:40:53,528 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2020-05-15-16-40-53-mpf-pinball.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2020-05-15 16:40:53,529 : INFO : Machine : MPF path: /home/ben/.local/lib/python3.6/site-packages/mpf
+2020-05-15 16:40:53,529 : INFO : Machine : Machine path: /home/ben/pinball
+2020-05-15 16:40:53,529 : INFO : Machine : Platform: linux
+2020-05-15 16:40:53,529 : INFO : Machine : Python executable location: /usr/bin/python3
+2020-05-15 16:40:53,529 : INFO : Machine : Python version: 3.6.9 (64-bit)
+2020-05-15 16:40:53,531 : INFO : Machine : Initialise MPF.
+2020-05-15 16:40:53,689 : INFO : OPP : Connecting to /dev/ttyACM1 at 115200bps
+2020-05-15 16:40:53,727 : INFO : OPP : Init of OPP board 0 done
+2020-05-15 16:40:53,728 : INFO : OPP : Connecting to /dev/ttyACM0 at 115200bps
+2020-05-15 16:40:53,756 : INFO : OPP : Init of OPP board 1 done
+2020-05-15 16:40:53,757 : INFO : OPP : Connecting to /dev/ttyACM2 at 115200bps
+2020-05-15 16:40:53,785 : INFO : OPP : Init of OPP board 2 done
+2020-05-15 16:40:53,786 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2020-05-15 16:40:53,856 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 500, 'prev_value': None, 'change': True}
+2020-05-15 16:40:53,856 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.54.0-dev.34', 'prev_value': None, 'change': True}
+2020-05-15 16:40:53,856 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.54.0-dev.34, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2020-05-15 16:40:53,856 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.9', 'prev_value': None, 'change': True}
+2020-05-15 16:40:53,858 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-5.3.0-51-generic-x86_64-with-Ubuntu-18.04-bionic', 'prev_value': None, 'change': True}
+2020-05-15 16:40:53,859 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2020-05-15 16:40:53,859 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '5.3.0-51-generic', 'prev_value': None, 'change': True}
+2020-05-15 16:40:53,859 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#44~18.04.2-Ubuntu SMP Thu Apr 23 14:27:18 UTC 2020', 'prev_value': None, 'change': True}
+2020-05-15 16:40:53,859 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2020-05-15 16:40:53,859 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2020-05-15 16:40:53,906 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...rror above',)>) at /home/ben/.local/lib/python3.6/site-packages/mpf/core/events.py:111
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...rror above',)>) at /home/ben/.local/lib/python3.6/site-packages/mpf/core/events.py:111>
+Traceback (most recent call last):
+  File "/home/ben/.local/lib/python3.6/site-packages/mpf/devices/driver.py", line 95, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "/home/ben/.local/lib/python3.6/site-packages/mpf/platforms/opp/opp.py", line 764, in configure_driver
+    "with number {} which doesn't exist".format(number), 5)
+  File "/home/ben/.local/lib/python3.6/site-packages/mpf/core/logging.py", line 166, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name, context, self._url_base)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: A request was made to configure an OPP solenoid with number 0-0-8 which doesn't exist Error Code: CFE-OPP-5 (https://docs.missionpinball.org/en/dev/logs/CFE-OPP-5.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/asyncio/events.py", line 145, in _run
+    self._callback(*self._args)
+  File "/home/ben/.local/lib/python3.6/site-packages/mpf/core/events.py", line 114, in _async_handler_done
+    future.result()
+  File "/home/ben/.local/lib/python3.6/site-packages/mpf/core/device_manager.py", line 103, in _load_device_modules
+    await self.initialize_devices()
+  File "/home/ben/.local/lib/python3.6/site-packages/mpf/core/device_manager.py", line 199, in initialize_devices
+    await collection[device_name].device_added_system_wide()
+  File "/home/ben/.local/lib/python3.6/site-packages/mpf/core/system_wide_device.py", line 15, in device_added_system_wide
+    await self._initialize()
+  File "/home/ben/.local/lib/python3.6/site-packages/mpf/devices/driver.py", line 97, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_Slingshot_Left in platform. See error above
+2020-05-15 16:40:53,914 : INFO : Machine : Starting the main run loop.
+2020-05-15 16:40:53,914 : INFO : Machine : Shutting down...
+2020-05-15 16:40:53,915 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2020-05-15 16:40:53,916 : ERROR : OPP : Stop called on serial connection /dev/ttyACM2
+2020-05-15 16:40:53,917 : ERROR : OPP : Stop called on serial connection /dev/ttyACM1
+2020-05-15 16:40:53,917 : ERROR : OPP : Stop called on serial connection /dev/ttyACM0
+2020-05-15 16:40:53,980 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/home/ben/.local/lib/python3.6/site-packages/mpf/devices/driver.py", line 95, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+  File "/home/ben/.local/lib/python3.6/site-packages/mpf/platforms/opp/opp.py", line 764, in configure_driver
+    "with number {} which doesn't exist".format(number), 5)
+  File "/home/ben/.local/lib/python3.6/site-packages/mpf/core/logging.py", line 166, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name, context, self._url_base)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in OPP: A request was made to configure an OPP solenoid with number 0-0-8 which doesn't exist Error Code: CFE-OPP-5 (https://docs.missionpinball.org/en/dev/logs/CFE-OPP-5.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ben/.local/lib/python3.6/site-packages/mpf/core/machine.py", line 741, in _run_loop
+    raise self._exception['exception']
+  File "/usr/lib/python3.6/asyncio/events.py", line 145, in _run
+    self._callback(*self._args)
+  File "/home/ben/.local/lib/python3.6/site-packages/mpf/core/events.py", line 114, in _async_handler_done
+    future.result()
+  File "/home/ben/.local/lib/python3.6/site-packages/mpf/core/device_manager.py", line 103, in _load_device_modules
+    await self.initialize_devices()
+  File "/home/ben/.local/lib/python3.6/site-packages/mpf/core/device_manager.py", line 199, in initialize_devices
+    await collection[device_name].device_added_system_wide()
+  File "/home/ben/.local/lib/python3.6/site-packages/mpf/core/system_wide_device.py", line 15, in device_added_system_wide
+    await self._initialize()
+  File "/home/ben/.local/lib/python3.6/site-packages/mpf/devices/driver.py", line 97, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_Slingshot_Left in platform. See error above
+2020-05-15 16:40:53,985 : INFO : root : MPF run loop ended.

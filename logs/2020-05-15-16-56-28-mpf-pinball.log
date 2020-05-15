@@ -1,0 +1,708 @@
+2020-05-15 16:56:28,187 : INFO : root : Loading config.
+2020-05-15 16:56:29,272 : INFO : ConfigProcessor : Config spec file cache created: /tmp/config_spec.mpf_cache
+2020-05-15 16:56:29,274 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2020-05-15 16:56:29,274 : WARNING : ConfigProcessor : Cache file not found: /tmp/f769d6d277b927631eb42efb29e773ab.mpf_cache
+2020-05-15 16:56:29,274 : INFO : ConfigProcessor : Loading config from file /home/ben/.local/lib/python3.6/site-packages/mpf/mpfconfig.yaml.
+2020-05-15 16:56:29,460 : INFO : ConfigProcessor : Loading config: /home/ben/.local/lib/python3.6/site-packages/mpf/mpfconfig.yaml
+2020-05-15 16:56:29,462 : INFO : ConfigProcessor : Loading config from file /home/ben/pinball/config/config.yaml.
+2020-05-15 16:56:29,632 : INFO : ConfigProcessor : Loading config: /home/ben/pinball/config/config.yaml
+2020-05-15 16:56:29,636 : INFO : ConfigProcessor : Config file cache created: /tmp/f769d6d277b927631eb42efb29e773ab.mpf_cache
+2020-05-15 16:56:29,719 : WARNING : ConfigProcessor : Cache file not found: /tmp/d964ef655ecb78b725ff15fc39405639.mpf_cache
+2020-05-15 16:56:29,719 : INFO : ConfigProcessor : Loading config from file /home/ben/.local/lib/python3.6/site-packages/mpf/modes/attract/config/attract.yaml.
+2020-05-15 16:56:29,724 : INFO : ConfigProcessor : Loading config: /home/ben/.local/lib/python3.6/site-packages/mpf/modes/attract/config/attract.yaml
+2020-05-15 16:56:29,724 : INFO : ConfigProcessor : Loading config from file /home/ben/pinball/modes/attract/config/attract.yaml.
+2020-05-15 16:56:29,731 : INFO : ConfigProcessor : Loading config: /home/ben/pinball/modes/attract/config/attract.yaml
+2020-05-15 16:56:29,732 : INFO : ConfigProcessor : Config file cache created: /tmp/d964ef655ecb78b725ff15fc39405639.mpf_cache
+2020-05-15 16:56:29,732 : WARNING : ConfigProcessor : Cache file not found: /tmp/47f1230cf12d95ec6fd446cbfe48c3da.mpf_cache
+2020-05-15 16:56:29,733 : INFO : ConfigProcessor : Loading config from file /home/ben/.local/lib/python3.6/site-packages/mpf/modes/game/config/game.yaml.
+2020-05-15 16:56:29,737 : INFO : ConfigProcessor : Loading config: /home/ben/.local/lib/python3.6/site-packages/mpf/modes/game/config/game.yaml
+2020-05-15 16:56:29,737 : INFO : ConfigProcessor : Config file cache created: /tmp/47f1230cf12d95ec6fd446cbfe48c3da.mpf_cache
+2020-05-15 16:56:29,738 : WARNING : ConfigProcessor : Cache file not found: /tmp/55abfb76abba0f6080480ef04b5360ae.mpf_cache
+2020-05-15 16:56:29,738 : INFO : ConfigProcessor : Loading config from file /home/ben/pinball/modes/base/config/base.yaml.
+2020-05-15 16:56:29,755 : INFO : ConfigProcessor : Loading config: /home/ben/pinball/modes/base/config/base.yaml
+2020-05-15 16:56:29,755 : INFO : ConfigProcessor : Config file cache created: /tmp/55abfb76abba0f6080480ef04b5360ae.mpf_cache
+2020-05-15 16:56:29,756 : INFO : ConfigProcessor : Loading config from cache: /tmp/d964ef655ecb78b725ff15fc39405639.mpf_cache
+2020-05-15 16:56:29,757 : WARNING : ConfigProcessor : Cache file not found: /tmp/2546fcfb07b4b71824e8d811d5d3d1fc.mpf_cache
+2020-05-15 16:56:29,757 : INFO : ConfigProcessor : Loading config from file /home/ben/pinball/modes/attract/shows/./attract_display_loop.yaml.
+2020-05-15 16:56:29,789 : INFO : ConfigProcessor : Loading config: /home/ben/pinball/modes/attract/shows/./attract_display_loop.yaml
+2020-05-15 16:56:29,789 : INFO : ConfigProcessor : Config file cache created: /tmp/2546fcfb07b4b71824e8d811d5d3d1fc.mpf_cache
+2020-05-15 16:56:29,790 : WARNING : ConfigProcessor : Cache file not found: /tmp/bf35451000d8eb08d7cb6ca13d9c5b7d.mpf_cache
+2020-05-15 16:56:29,790 : INFO : ConfigProcessor : Loading config from file /home/ben/pinball/modes/attract/shows/./attract_light_show.yaml.
+2020-05-15 16:56:29,806 : INFO : ConfigProcessor : Loading config: /home/ben/pinball/modes/attract/shows/./attract_light_show.yaml
+2020-05-15 16:56:29,807 : INFO : ConfigProcessor : Config file cache created: /tmp/bf35451000d8eb08d7cb6ca13d9c5b7d.mpf_cache
+2020-05-15 16:56:29,807 : INFO : Machine : Mission Pinball Framework Core Engine v0.54.0-dev.34
+2020-05-15 16:56:29,808 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2020-05-15-16-56-28-mpf-pinball.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2020-05-15 16:56:29,808 : INFO : Machine : MPF path: /home/ben/.local/lib/python3.6/site-packages/mpf
+2020-05-15 16:56:29,808 : INFO : Machine : Machine path: /home/ben/pinball
+2020-05-15 16:56:29,808 : INFO : Machine : Platform: linux
+2020-05-15 16:56:29,808 : INFO : Machine : Python executable location: /usr/bin/python3
+2020-05-15 16:56:29,808 : INFO : Machine : Python version: 3.6.9 (64-bit)
+2020-05-15 16:56:29,810 : INFO : Machine : Initialise MPF.
+2020-05-15 16:56:29,912 : INFO : OPP : Connecting to /dev/ttyACM1 at 115200bps
+2020-05-15 16:56:29,941 : INFO : OPP : Init of OPP board 0 done
+2020-05-15 16:56:29,942 : INFO : OPP : Connecting to /dev/ttyACM0 at 115200bps
+2020-05-15 16:56:29,978 : INFO : OPP : Init of OPP board 1 done
+2020-05-15 16:56:29,979 : INFO : OPP : Connecting to /dev/ttyACM2 at 115200bps
+2020-05-15 16:56:30,008 : INFO : OPP : Init of OPP board 2 done
+2020-05-15 16:56:30,009 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2020-05-15 16:56:30,073 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 500, 'prev_value': None, 'change': True}
+2020-05-15 16:56:30,074 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.54.0-dev.34', 'prev_value': None, 'change': True}
+2020-05-15 16:56:30,074 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.54.0-dev.34, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2020-05-15 16:56:30,074 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.9', 'prev_value': None, 'change': True}
+2020-05-15 16:56:30,076 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-5.3.0-51-generic-x86_64-with-Ubuntu-18.04-bionic', 'prev_value': None, 'change': True}
+2020-05-15 16:56:30,076 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2020-05-15 16:56:30,076 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '5.3.0-51-generic', 'prev_value': None, 'change': True}
+2020-05-15 16:56:30,076 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#44~18.04.2-Ubuntu SMP Thu Apr 23 14:27:18 UTC 2020', 'prev_value': None, 'change': True}
+2020-05-15 16:56:30,076 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2020-05-15 16:56:30,076 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2020-05-15 16:56:30,152 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2020-05-15 16:56:30,162 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2020-05-15 16:56:30,165 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2020-05-15 16:56:31,313 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2020-05-15 16:56:31,314 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2020-05-15 16:56:31,315 : INFO : ball_device.bd_drain : State: idle
+2020-05-15 16:56:31,356 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2020-05-15 16:56:31,378 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:56:31,378 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:56:31,380 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.54.0-dev.7', 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,380 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.54.0-dev.7 (config_version=5, BCP v1.1, Requires MPF v0.54.0-dev.0)', 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,386 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,387 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2020-05-15 16:56:31,408 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,409 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,410 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 540.0, 'top': [600, 600, 600, 400, 300], 'total': 5}, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,411 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Drain'====== Args={'value': 63, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,412 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Left_Bottom'====== Args={'value': 228, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,413 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Left_Top'====== Args={'value': 210, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,413 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Right_Bottom'====== Args={'value': 221, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,414 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Right_Top'====== Args={'value': 221, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,415 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Inlane_Bottom'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,416 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Lane_Top_Left'====== Args={'value': 7, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,418 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Lane_Top_Right'====== Args={'value': 25, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,418 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Left_Bumper'====== Args={'value': 76, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,419 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Outlane_Left'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,420 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Outlane_Right'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,420 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Right_Bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,421 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Roller_1000'====== Args={'value': 10, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,422 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Rollover_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,422 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Rollover_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,423 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Rollover_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,424 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Rollover_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,425 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Rollover_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,425 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Rollover_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,426 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Rollover_7'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,426 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Rollover_8'====== Args={'value': 43, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,427 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Rollover_9'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,428 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_SPECIAL'====== Args={'value': 18, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,429 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Slingshot_Left'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,430 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Slingshot_Right'====== Args={'value': 18, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,430 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Start_Button'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,431 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Target_10'====== Args={'value': 54, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,432 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Target_1000_Top'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,433 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Target_A'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,433 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Target_Adv_Bonus_Left_Bottom'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,434 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Target_Adv_Bonus_Left_Top'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,435 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Target_Adv_Bonus_Right_Top'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,436 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Target_J'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,437 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Target_K'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,438 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Target_Q'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,444 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Tilt_Plumb'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,445 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Tilt_Roll'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,446 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Tilt_playfield'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,447 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Top_Bumper'====== Args={'value': 64, 'prev_value': None, 'change': True}
+2020-05-15 16:56:31,448 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2020-05-15 16:56:31,471 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2020-05-15 16:56:31,472 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2020-05-15 16:56:31,494 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:56:31,495 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:56:31,502 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:56:31,503 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2020-05-15 16:56:31,503 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2020-05-15 16:56:31,503 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2020-05-15 16:56:31,504 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2020-05-15 16:56:31,505 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2020-05-15 16:56:31,506 : INFO : Mode.attract : Started. Priority: 10
+2020-05-15 16:56:31,506 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2020-05-15 16:56:31,508 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2020-05-15 16:56:31,510 : INFO : Machine : Starting the main run loop.
+2020-05-15 16:56:31,545 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:56:31,548 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:56:34,526 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 16:56:34,530 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 16:56:37,521 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 16:56:37,524 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 16:56:40,525 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:56:40,530 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:56:43,514 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:56:43,520 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:56:43,523 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:56:46,528 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:56:46,535 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 16:56:46,539 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 16:56:49,517 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:56:49,522 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 16:56:49,525 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 16:56:52,515 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:56:52,523 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:56:52,527 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:56:55,524 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:56:55,525 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:56:55,528 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:56:58,512 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:56:58,520 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 16:56:58,525 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:01,519 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:01,525 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:01,528 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:04,524 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:04,534 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:04,538 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:07,518 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:07,523 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:07,526 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:10,522 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:10,530 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:10,534 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:13,518 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:13,523 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:13,526 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:16,520 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:16,529 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:16,535 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:19,524 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:19,525 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:19,530 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:22,521 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:22,528 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:22,533 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:25,518 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:25,523 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:25,526 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:28,512 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:28,520 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:28,524 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:31,518 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:31,526 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:31,528 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:34,517 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:34,528 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:34,533 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:37,515 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:37,523 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:37,525 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:40,513 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:40,521 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:40,525 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:43,522 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:43,527 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:43,532 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:46,514 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:46,522 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:46,526 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:49,517 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:49,522 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:49,525 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:52,513 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:52,523 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:52,528 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:55,519 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:55,524 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:55,527 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:55,669 : INFO : SwitchController : <<<<<<< 's_Lane_Top_Right' active >>>>>>>
+2020-05-15 16:57:55,669 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2020-05-15 16:57:55,670 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-05-15 16:57:55,670 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2020-05-15 16:57:55,793 : INFO : SwitchController : <<<<<<< 's_Lane_Top_Right' inactive >>>>>>>
+2020-05-15 16:57:56,771 : INFO : SwitchController : <<<<<<< 's_Slingshot_Right' active >>>>>>>
+2020-05-15 16:57:56,801 : INFO : SwitchController : <<<<<<< 's_Slingshot_Right' inactive >>>>>>>
+2020-05-15 16:57:58,526 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:57:58,530 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 16:57:58,534 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 16:57:59,330 : INFO : SwitchController : <<<<<<< 's_Drain' active >>>>>>>
+2020-05-15 16:57:59,831 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_count_changed'====== Args={'balls': 1}
+2020-05-15 16:57:59,831 : INFO : ball_device.bd_drain : Received unexpected ball
+2020-05-15 16:57:59,831 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2020-05-15 16:57:59,832 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2020-05-15 16:57:59,832 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-05-15 16:57:59,832 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2020-05-15 16:57:59,832 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': -1, 'change': -1}
+2020-05-15 16:57:59,832 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2020-05-15 16:57:59,833 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': 1}
+2020-05-15 16:57:59,833 : INFO : BallController : Found a new ball which was captured from playfield. Known balls: 1
+2020-05-15 16:57:59,833 : INFO : EventManager : Event: ======'found_new_ball'====== Args={}
+2020-05-15 16:57:59,833 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_drain>}
+2020-05-15 16:57:59,833 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_drain>, 'balls': 1}
+2020-05-15 16:57:59,833 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2020-05-15 16:57:59,834 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_drain>}
+2020-05-15 16:58:01,512 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:01,517 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:01,520 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:04,519 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:04,527 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:04,531 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:07,514 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:07,519 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:07,522 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:10,519 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:10,524 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:10,528 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:13,522 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:13,525 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:13,527 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:16,517 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:16,526 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:16,530 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:19,524 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:19,529 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:19,533 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:22,524 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:22,532 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:22,537 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:25,512 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:25,520 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:25,523 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:28,513 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:28,521 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:28,526 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:31,526 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:31,528 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:31,533 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:34,524 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:34,532 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:34,536 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:37,513 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:37,517 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:37,520 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:40,524 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:40,535 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:40,539 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:43,521 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:43,525 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:43,529 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:46,519 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:46,527 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:46,531 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:49,523 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:49,528 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:49,531 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:52,520 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:52,529 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:52,533 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:55,516 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:55,517 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:55,520 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:58:58,522 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:58:58,536 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 16:58:58,538 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:01,519 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:01,524 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:01,527 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:04,525 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:04,529 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:04,534 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:07,516 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:07,521 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:07,524 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:10,515 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:10,523 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:10,526 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:13,514 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:13,522 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:13,527 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:16,586 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:16,621 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:16,627 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:19,521 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:19,526 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:19,528 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:22,513 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:22,520 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:22,524 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:25,522 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:25,527 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:25,529 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:28,526 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:28,530 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:28,534 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:31,517 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:31,525 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:31,528 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:34,512 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:34,519 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:34,525 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:37,523 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:37,527 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:37,530 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:40,526 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:40,530 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:40,534 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:43,517 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:43,522 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:43,525 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:45,730 : INFO : SwitchController : <<<<<<< 's_Drain' inactive >>>>>>>
+2020-05-15 16:59:46,522 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:46,532 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:46,536 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:47,682 : INFO : SwitchController : <<<<<<< 's_Inlane_Bottom' active >>>>>>>
+2020-05-15 16:59:47,682 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2020-05-15 16:59:47,682 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-05-15 16:59:47,682 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2020-05-15 16:59:47,714 : INFO : SwitchController : <<<<<<< 's_Inlane_Bottom' inactive >>>>>>>
+2020-05-15 16:59:48,433 : INFO : SwitchController : <<<<<<< 's_Top_Bumper' active >>>>>>>
+2020-05-15 16:59:48,465 : INFO : SwitchController : <<<<<<< 's_Top_Bumper' inactive >>>>>>>
+2020-05-15 16:59:49,522 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:49,526 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:49,530 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:51,232 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_count_changed'====== Args={'balls': 0}
+2020-05-15 16:59:51,232 : WARNING : ball_device.bd_drain : Ball disappeared while idle. This should not normally happen.
+2020-05-15 16:59:51,233 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2020-05-15 16:59:51,233 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2020-05-15 16:59:51,233 : INFO : ball_device.bd_drain : 1 ball(s) missing from device. Mechanical eject? False
+2020-05-15 16:59:51,233 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_missing'====== Args={'balls': 1}
+2020-05-15 16:59:51,233 : INFO : EventManager : Event: ======'balldevice_ball_missing'====== Args={'balls': 1, 'name': 'bd_drain'}
+2020-05-15 16:59:52,519 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:52,524 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:52,528 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:55,512 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:55,517 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:55,520 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 16:59:58,525 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 16:59:58,526 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 16:59:58,530 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:01,522 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:01,523 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 17:00:01,527 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:04,515 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:04,526 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 17:00:04,531 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:07,513 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:07,518 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 17:00:07,522 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:10,517 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:10,525 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 17:00:10,529 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:13,518 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:13,524 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 17:00:13,527 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:16,525 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:16,529 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 17:00:16,534 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:18,652 : INFO : SwitchController : <<<<<<< 's_Top_Bumper' active >>>>>>>
+2020-05-15 17:00:18,772 : INFO : SwitchController : <<<<<<< 's_Top_Bumper' inactive >>>>>>>
+2020-05-15 17:00:19,518 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:19,523 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 17:00:19,526 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:22,324 : INFO : SwitchController : <<<<<<< 's_Drain' active >>>>>>>
+2020-05-15 17:00:22,516 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:22,526 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 17:00:22,533 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:22,825 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_count_changed'====== Args={'balls': 1}
+2020-05-15 17:00:22,825 : INFO : ball_device.bd_drain : Received unexpected ball
+2020-05-15 17:00:22,825 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2020-05-15 17:00:22,826 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2020-05-15 17:00:22,826 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2020-05-15 17:00:22,827 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_drain>}
+2020-05-15 17:00:22,827 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_drain>, 'balls': 1}
+2020-05-15 17:00:22,827 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2020-05-15 17:00:22,827 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_drain>}
+2020-05-15 17:00:25,519 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:25,523 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 17:00:25,526 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:28,519 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:28,528 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 17:00:28,532 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:31,523 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:31,528 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 17:00:31,531 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:34,524 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:34,531 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 17:00:34,535 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:37,521 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:37,528 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 17:00:37,531 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:40,514 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:40,522 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 17:00:40,526 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:43,519 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:43,523 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 17:00:43,526 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:43,561 : INFO : SwitchController : <<<<<<< 's_Start_Button' active >>>>>>>
+2020-05-15 17:00:43,739 : INFO : SwitchController : <<<<<<< 's_Start_Button' inactive >>>>>>>
+2020-05-15 17:00:43,739 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2020-05-15 17:00:43,740 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.17781847800000605}
+2020-05-15 17:00:43,740 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.17781847800000605}
+2020-05-15 17:00:43,742 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.17781847800000605}
+2020-05-15 17:00:43,742 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2020-05-15 17:00:43,743 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2020-05-15 17:00:43,743 : INFO : Mode.attract : Stopped.
+2020-05-15 17:00:43,750 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2020-05-15 17:00:43,750 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2020-05-15 17:00:43,750 : INFO : Mode.game : Started. Priority: 20
+2020-05-15 17:00:43,760 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.17781847800000605}
+2020-05-15 17:00:43,762 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2020-05-15 17:00:43,789 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2020-05-15 17:00:43,790 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:43,790 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:43,790 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:43,791 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:43,791 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:43,792 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2020-05-15 17:00:43,792 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2020-05-15 17:00:43,793 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:00:43,793 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2020-05-15 17:00:43,793 : INFO : Mode.game : Player added successfully. Total players: 1
+2020-05-15 17:00:43,794 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2020-05-15 17:00:43,794 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2020-05-15 17:00:43,795 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2020-05-15 17:00:43,796 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2020-05-15 17:00:43,796 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:00:43,796 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:00:43,800 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-05-15 17:00:43,800 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:00:43,803 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2020-05-15 17:00:43,804 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2020-05-15 17:00:43,805 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2020-05-15 17:00:43,807 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2020-05-15 17:00:43,808 : INFO : Mode.base : Started. Priority: 100
+2020-05-15 17:00:43,808 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2020-05-15 17:00:43,809 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2020-05-15 17:00:43,810 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2020-05-15 17:00:43,849 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2020-05-15 17:00:43,850 : INFO : ball_device.bd_drain : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2020-05-15 17:00:43,850 : INFO : ball_device.bd_drain : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2020-05-15 17:00:43,851 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2020-05-15 17:00:43,854 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_created'====== Args={'_from_bcp': True}
+2020-05-15 17:00:43,855 : INFO : ball_device.bd_drain : State: waiting_for_target_ready
+2020-05-15 17:00:43,855 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_drain>, 'mechanical_eject': False, 'num_attempts': 0}
+2020-05-15 17:00:43,856 : INFO : ball_device.bd_drain : State: ejecting
+2020-05-15 17:00:43,856 : INFO : ball_device.bd_drain : Ejecting ball to <playfield.playfield>
+2020-05-15 17:00:43,856 : INFO : EventManager : Event: ======'balldevice_bd_drain_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_drain>, 'mechanical_eject': False, 'num_attempts': 0}
+2020-05-15 17:00:43,858 : INFO : ball_device.bd_drain : Wait for ball to leave device
+2020-05-15 17:00:43,858 : INFO : coil.c_Drain : Pulsing Driver for 40ms (1.0 pulse_power)
+2020-05-15 17:00:43,873 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:43,905 : INFO : SwitchController : <<<<<<< 's_Drain' inactive >>>>>>>
+2020-05-15 17:00:43,907 : INFO : ball_device.bd_drain : State: ball_left
+2020-05-15 17:00:43,907 : INFO : ball_device.bd_drain : Ball left
+2020-05-15 17:00:43,907 : INFO : ball_device.bd_drain : Wait for confirm with timeout 10.0
+2020-05-15 17:00:48,004 : INFO : SwitchController : <<<<<<< 's_Top_Bumper' active >>>>>>>
+2020-05-15 17:00:48,004 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-05-15 17:00:48,004 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Top_Bumper'====== Args={'value': 65, 'prev_value': 64, 'change': 1}
+2020-05-15 17:00:48,006 : INFO : ball_device.bd_drain : Got eject confirm
+2020-05-15 17:00:48,006 : INFO : ball_device.bd_drain : Eject successful
+2020-05-15 17:00:48,006 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2020-05-15 17:00:48,006 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2020-05-15 17:00:48,006 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2020-05-15 17:00:48,006 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_count_changed'====== Args={'balls': 0}
+2020-05-15 17:00:48,007 : INFO : ball_device.bd_drain : State: idle
+2020-05-15 17:00:48,049 : INFO : SwitchController : <<<<<<< 's_Top_Bumper' inactive >>>>>>>
+2020-05-15 17:00:49,325 : INFO : SwitchController : <<<<<<< 's_Lane_Top_Right' active >>>>>>>
+2020-05-15 17:00:49,325 : INFO : EventManager : Event: ======'s_Lane_Top_Right_active'====== Args={}
+2020-05-15 17:00:49,325 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2020-05-15 17:00:49,325 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Lane_Top_Right'====== Args={'value': 26, 'prev_value': 25, 'change': 1}
+2020-05-15 17:00:49,327 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 200, 'prev_value': 0, 'change': 200, 'player_num': 1}
+2020-05-15 17:00:49,543 : INFO : SwitchController : <<<<<<< 's_Lane_Top_Right' inactive >>>>>>>
+2020-05-15 17:00:53,213 : INFO : SwitchController : <<<<<<< 's_Drain' active >>>>>>>
+2020-05-15 17:00:53,214 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Drain'====== Args={'value': 64, 'prev_value': 63, 'change': 1}
+2020-05-15 17:00:53,714 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_count_changed'====== Args={'balls': 1}
+2020-05-15 17:00:53,714 : INFO : ball_device.bd_drain : Received unexpected ball
+2020-05-15 17:00:53,714 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2020-05-15 17:00:53,715 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2020-05-15 17:00:53,715 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2020-05-15 17:00:53,715 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_drain>}
+2020-05-15 17:00:53,715 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_drain>, 'balls': 1}
+2020-05-15 17:00:53,716 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2020-05-15 17:00:53,716 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2020-05-15 17:00:53,716 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_drain>}
+2020-05-15 17:00:53,719 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2020-05-15 17:00:53,720 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2020-05-15 17:00:53,721 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2020-05-15 17:00:53,721 : INFO : Mode.base : Stopped.
+2020-05-15 17:00:53,722 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2020-05-15 17:00:53,722 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2020-05-15 17:00:53,724 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2020-05-15 17:00:53,725 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:00:53,725 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:00:53,726 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:00:53,726 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:00:53,726 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:00:53,726 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2020-05-15 17:00:53,727 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:00:53,728 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2020-05-15 17:00:53,729 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2020-05-15 17:00:53,729 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2020-05-15 17:00:53,731 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2020-05-15 17:00:53,731 : INFO : Mode.base : Started. Priority: 100
+2020-05-15 17:00:53,731 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2020-05-15 17:00:53,732 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2020-05-15 17:00:53,733 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2020-05-15 17:00:53,761 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2020-05-15 17:00:53,763 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:00:53,763 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:53,764 : INFO : ball_device.bd_drain : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2020-05-15 17:00:53,764 : INFO : ball_device.bd_drain : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2020-05-15 17:00:53,764 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2020-05-15 17:00:53,766 : INFO : ball_device.bd_drain : State: waiting_for_target_ready
+2020-05-15 17:00:53,767 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_drain>, 'mechanical_eject': False, 'num_attempts': 0}
+2020-05-15 17:00:53,767 : INFO : ball_device.bd_drain : State: ejecting
+2020-05-15 17:00:53,768 : INFO : ball_device.bd_drain : Ejecting ball to <playfield.playfield>
+2020-05-15 17:00:53,768 : INFO : EventManager : Event: ======'balldevice_bd_drain_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_drain>, 'mechanical_eject': False, 'num_attempts': 0}
+2020-05-15 17:00:53,769 : INFO : ball_device.bd_drain : Wait for ball to leave device
+2020-05-15 17:00:53,769 : INFO : coil.c_Drain : Pulsing Driver for 40ms (1.0 pulse_power)
+2020-05-15 17:00:53,772 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_created'====== Args={'_from_bcp': True}
+2020-05-15 17:00:53,773 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_active'====== Args={'_from_bcp': True}
+2020-05-15 17:00:53,822 : INFO : SwitchController : <<<<<<< 's_Drain' inactive >>>>>>>
+2020-05-15 17:00:53,823 : INFO : ball_device.bd_drain : State: ball_left
+2020-05-15 17:00:53,823 : INFO : ball_device.bd_drain : Ball left
+2020-05-15 17:00:53,823 : INFO : ball_device.bd_drain : Wait for confirm with timeout 10.0
+2020-05-15 17:00:57,498 : INFO : SwitchController : <<<<<<< 's_Lane_Top_Right' active >>>>>>>
+2020-05-15 17:00:57,498 : INFO : EventManager : Event: ======'s_Lane_Top_Right_active'====== Args={}
+2020-05-15 17:00:57,499 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2020-05-15 17:00:57,499 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Lane_Top_Right'====== Args={'value': 27, 'prev_value': 26, 'change': 1}
+2020-05-15 17:00:57,500 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 400, 'prev_value': 200, 'change': 200, 'player_num': 1}
+2020-05-15 17:00:57,501 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-05-15 17:00:57,501 : INFO : ball_device.bd_drain : Got eject confirm
+2020-05-15 17:00:57,501 : INFO : ball_device.bd_drain : Eject successful
+2020-05-15 17:00:57,502 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2020-05-15 17:00:57,502 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2020-05-15 17:00:57,502 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2020-05-15 17:00:57,502 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_count_changed'====== Args={'balls': 0}
+2020-05-15 17:00:57,502 : INFO : ball_device.bd_drain : State: idle
+2020-05-15 17:00:57,675 : INFO : SwitchController : <<<<<<< 's_Lane_Top_Right' inactive >>>>>>>
+2020-05-15 17:00:58,740 : INFO : SwitchController : <<<<<<< 's_Slingshot_Right' active >>>>>>>
+2020-05-15 17:00:58,741 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Slingshot_Right'====== Args={'value': 19, 'prev_value': 18, 'change': 1}
+2020-05-15 17:00:58,777 : INFO : SwitchController : <<<<<<< 's_Slingshot_Right' inactive >>>>>>>
+2020-05-15 17:01:02,036 : INFO : SwitchController : <<<<<<< 's_Drain' active >>>>>>>
+2020-05-15 17:01:02,037 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Drain'====== Args={'value': 65, 'prev_value': 64, 'change': 1}
+2020-05-15 17:01:02,537 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_count_changed'====== Args={'balls': 1}
+2020-05-15 17:01:02,537 : INFO : ball_device.bd_drain : Received unexpected ball
+2020-05-15 17:01:02,537 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2020-05-15 17:01:02,538 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2020-05-15 17:01:02,538 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2020-05-15 17:01:02,538 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_drain>}
+2020-05-15 17:01:02,538 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_drain>, 'balls': 1}
+2020-05-15 17:01:02,539 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2020-05-15 17:01:02,539 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2020-05-15 17:01:02,539 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_drain>}
+2020-05-15 17:01:02,542 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2020-05-15 17:01:02,543 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2020-05-15 17:01:02,543 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2020-05-15 17:01:02,544 : INFO : Mode.base : Stopped.
+2020-05-15 17:01:02,545 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2020-05-15 17:01:02,545 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2020-05-15 17:01:02,545 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2020-05-15 17:01:02,546 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:01:02,547 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:01:02,548 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:01:02,548 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:01:02,549 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:01:02,549 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2020-05-15 17:01:02,550 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:01:02,551 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2020-05-15 17:01:02,551 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2020-05-15 17:01:02,551 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2020-05-15 17:01:02,553 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2020-05-15 17:01:02,553 : INFO : Mode.base : Started. Priority: 100
+2020-05-15 17:01:02,553 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2020-05-15 17:01:02,554 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2020-05-15 17:01:02,555 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2020-05-15 17:01:02,558 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2020-05-15 17:01:02,582 : INFO : ball_device.bd_drain : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2020-05-15 17:01:02,582 : INFO : ball_device.bd_drain : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2020-05-15 17:01:02,582 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2020-05-15 17:01:02,584 : INFO : ball_device.bd_drain : State: waiting_for_target_ready
+2020-05-15 17:01:02,585 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_drain>, 'mechanical_eject': False, 'num_attempts': 0}
+2020-05-15 17:01:02,586 : INFO : ball_device.bd_drain : State: ejecting
+2020-05-15 17:01:02,587 : INFO : ball_device.bd_drain : Ejecting ball to <playfield.playfield>
+2020-05-15 17:01:02,587 : INFO : EventManager : Event: ======'balldevice_bd_drain_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_drain>, 'mechanical_eject': False, 'num_attempts': 0}
+2020-05-15 17:01:02,587 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:01:02,587 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_created'====== Args={'_from_bcp': True}
+2020-05-15 17:01:02,588 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_active'====== Args={'_from_bcp': True}
+2020-05-15 17:01:02,589 : INFO : ball_device.bd_drain : Wait for ball to leave device
+2020-05-15 17:01:02,589 : INFO : coil.c_Drain : Pulsing Driver for 40ms (1.0 pulse_power)
+2020-05-15 17:01:02,641 : INFO : SwitchController : <<<<<<< 's_Drain' inactive >>>>>>>
+2020-05-15 17:01:02,642 : INFO : ball_device.bd_drain : State: ball_left
+2020-05-15 17:01:02,642 : INFO : ball_device.bd_drain : Ball left
+2020-05-15 17:01:02,642 : INFO : ball_device.bd_drain : Wait for confirm with timeout 10.0
+2020-05-15 17:01:06,904 : INFO : SwitchController : <<<<<<< 's_Lane_Top_Right' active >>>>>>>
+2020-05-15 17:01:06,904 : INFO : EventManager : Event: ======'s_Lane_Top_Right_active'====== Args={}
+2020-05-15 17:01:06,904 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={}
+2020-05-15 17:01:06,904 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Lane_Top_Right'====== Args={'value': 28, 'prev_value': 27, 'change': 1}
+2020-05-15 17:01:06,906 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 600, 'prev_value': 400, 'change': 200, 'player_num': 1}
+2020-05-15 17:01:06,907 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2020-05-15 17:01:06,907 : INFO : ball_device.bd_drain : Got eject confirm
+2020-05-15 17:01:06,907 : INFO : ball_device.bd_drain : Eject successful
+2020-05-15 17:01:06,907 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2020-05-15 17:01:06,907 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2020-05-15 17:01:06,907 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2020-05-15 17:01:06,908 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_count_changed'====== Args={'balls': 0}
+2020-05-15 17:01:06,908 : INFO : ball_device.bd_drain : State: idle
+2020-05-15 17:01:07,078 : INFO : SwitchController : <<<<<<< 's_Lane_Top_Right' inactive >>>>>>>
+2020-05-15 17:01:11,004 : INFO : SwitchController : <<<<<<< 's_Drain' active >>>>>>>
+2020-05-15 17:01:11,004 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Drain'====== Args={'value': 66, 'prev_value': 65, 'change': 1}
+2020-05-15 17:01:11,504 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_count_changed'====== Args={'balls': 1}
+2020-05-15 17:01:11,505 : INFO : ball_device.bd_drain : Received unexpected ball
+2020-05-15 17:01:11,505 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2020-05-15 17:01:11,505 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2020-05-15 17:01:11,505 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2020-05-15 17:01:11,505 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_drain>}
+2020-05-15 17:01:11,506 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_drain>, 'balls': 1}
+2020-05-15 17:01:11,506 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2020-05-15 17:01:11,506 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2020-05-15 17:01:11,506 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_drain>}
+2020-05-15 17:01:11,510 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2020-05-15 17:01:11,511 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2020-05-15 17:01:11,511 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2020-05-15 17:01:11,511 : INFO : Mode.base : Stopped.
+2020-05-15 17:01:11,512 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2020-05-15 17:01:11,512 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2020-05-15 17:01:11,513 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2020-05-15 17:01:11,514 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:01:11,514 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:01:11,515 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 17:01:11,516 : INFO : EventManager : Event: ======'game_will_end'====== Args={}
+2020-05-15 17:01:11,516 : INFO : EventManager : Event: ======'game_ending'====== Args={}
+2020-05-15 17:01:11,517 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 600, 'prev_value': 500, 'change': 100}
+2020-05-15 17:01:11,518 : INFO : EventManager : Event: ======'game_ended'====== Args={}
+2020-05-15 17:01:11,518 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2020-05-15 17:01:11,518 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2020-05-15 17:01:11,518 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2020-05-15 17:01:11,521 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2020-05-15 17:01:11,522 : INFO : Mode.attract : Started. Priority: 10
+2020-05-15 17:01:11,522 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2020-05-15 17:01:11,524 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2020-05-15 17:01:11,524 : INFO : Mode.game : Stopped.
+2020-05-15 17:01:11,525 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2020-05-15 17:01:11,525 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2020-05-15 17:01:11,551 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:01:11,552 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 17:01:11,552 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 17:01:14,549 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 17:01:14,551 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 17:01:17,538 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 17:01:17,541 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 17:01:20,545 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 17:01:20,550 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 17:01:23,531 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:01:23,537 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 17:01:23,540 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 17:01:26,539 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:01:26,547 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 17:01:26,550 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 17:01:29,530 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:01:29,535 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 17:01:29,538 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 17:01:32,540 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:01:32,544 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 17:01:32,548 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 17:01:35,529 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:01:35,538 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 17:01:35,541 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 17:01:38,533 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 17:01:38,540 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 17:01:38,546 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 17:01:40,874 : INFO : Machine : Shutting down...
+2020-05-15 17:01:40,874 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2020-05-15 17:01:40,877 : ERROR : OPP : Stop called on serial connection /dev/ttyACM2
+2020-05-15 17:01:40,877 : ERROR : OPP : Stop called on serial connection /dev/ttyACM1
+2020-05-15 17:01:40,877 : ERROR : OPP : Stop called on serial connection /dev/ttyACM0
+2020-05-15 17:01:40,934 : INFO : root : MPF run loop ended.
