@@ -1,0 +1,31 @@
+#show_version=5
+- duration: 1
+  lights:
+    l_Bonus_1000: red
+    l_Bonus_2000: red
+    l_Bonus_3000: ff0000
+- duration: 1
+  lights:
+    l_Bonus_1000: ff6600
+    l_Bonus_2000: ff6600
+    l_Bonus_3000: ff6600
+- duration: 1
+  lights:
+    l_Bonus_1000: ffcc00
+    l_Bonus_2000: ffcc00
+    l_Bonus_3000: ffcc00
+- duration: 1
+  lights:
+    l_Bonus_1000: lime
+    l_Bonus_2000: 00ff00
+    l_Bonus_3000: 00ff00
+- duration: 1
+  lights:
+    l_Bonus_1000: blue
+    l_Bonus_2000: 0000ff
+    l_Bonus_3000: 0000ff
+- duration: 1
+  lights:
+    l_Bonus_1000: ff00aa
+    l_Bonus_2000: ff00aa
+    l_Bonus_3000: ff00aa

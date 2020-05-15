@@ -1,0 +1,45 @@
+2020-05-15 15:31:22,701 : INFO : root : Loading config.
+2020-05-15 15:31:22,706 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2020-05-15 15:31:22,707 : INFO : ConfigProcessor : Loading config from cache: /tmp/f769d6d277b927631eb42efb29e773ab.mpf_cache
+2020-05-15 15:31:22,796 : INFO : ConfigProcessor : Loading config from cache: /tmp/d964ef655ecb78b725ff15fc39405639.mpf_cache
+2020-05-15 15:31:22,797 : INFO : ConfigProcessor : Loading config from cache: /tmp/47f1230cf12d95ec6fd446cbfe48c3da.mpf_cache
+2020-05-15 15:31:22,797 : INFO : ConfigProcessor : Loading config from cache: /tmp/55abfb76abba0f6080480ef04b5360ae.mpf_cache
+2020-05-15 15:31:22,798 : INFO : ConfigProcessor : Loading config from cache: /tmp/d964ef655ecb78b725ff15fc39405639.mpf_cache
+2020-05-15 15:31:22,798 : INFO : ConfigProcessor : Loading config from cache: /tmp/2546fcfb07b4b71824e8d811d5d3d1fc.mpf_cache
+2020-05-15 15:31:22,799 : INFO : ConfigProcessor : Loading config from cache: /tmp/bf35451000d8eb08d7cb6ca13d9c5b7d.mpf_cache
+2020-05-15 15:31:22,800 : INFO : Machine : Mission Pinball Framework Core Engine v0.54.0-dev.34
+2020-05-15 15:31:22,800 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2020-05-15-15-31-22-mpf-pinball.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2020-05-15 15:31:22,800 : INFO : Machine : MPF path: /home/ben/.local/lib/python3.6/site-packages/mpf
+2020-05-15 15:31:22,800 : INFO : Machine : Machine path: /home/ben/pinball
+2020-05-15 15:31:22,800 : INFO : Machine : Platform: linux
+2020-05-15 15:31:22,800 : INFO : Machine : Python executable location: /usr/bin/python3
+2020-05-15 15:31:22,800 : INFO : Machine : Python version: 3.6.9 (64-bit)
+2020-05-15 15:31:22,802 : INFO : Machine : Initialise MPF.
+2020-05-15 15:31:22,930 : INFO : OPP : Connecting to /dev/ttyACM1 at 115200bps
+2020-05-15 15:31:22,958 : INFO : OPP : Init of OPP board 0 done
+2020-05-15 15:31:22,958 : INFO : OPP : Connecting to /dev/ttyACM0 at 115200bps
+2020-05-15 15:31:22,989 : INFO : OPP : Init of OPP board 1 done
+2020-05-15 15:31:22,989 : INFO : OPP : Connecting to /dev/ttyACM2 at 115200bps
+2020-05-15 15:31:23,017 : INFO : OPP : Init of OPP board 2 done
+2020-05-15 15:31:23,017 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2020-05-15 15:31:23,078 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 400, 'prev_value': None, 'change': True}
+2020-05-15 15:31:23,078 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.54.0-dev.34', 'prev_value': None, 'change': True}
+2020-05-15 15:31:23,078 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.54.0-dev.34, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2020-05-15 15:31:23,078 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.9', 'prev_value': None, 'change': True}
+2020-05-15 15:31:23,080 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-5.3.0-51-generic-x86_64-with-Ubuntu-18.04-bionic', 'prev_value': None, 'change': True}
+2020-05-15 15:31:23,080 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2020-05-15 15:31:23,080 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '5.3.0-51-generic', 'prev_value': None, 'change': True}
+2020-05-15 15:31:23,080 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#44~18.04.2-Ubuntu SMP Thu Apr 23 14:27:18 UTC 2020', 'prev_value': None, 'change': True}
+2020-05-15 15:31:23,081 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2020-05-15 15:31:23,081 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2020-05-15 15:31:23,134 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2020-05-15 15:31:23,135 : INFO : SwitchController : Found active switch: ('0-0-18', <Platform.OPP>)
+2020-05-15 15:31:23,145 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2020-05-15 15:31:23,148 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2020-05-15 15:31:28,097 : INFO : Machine : Starting the main run loop.
+2020-05-15 15:31:28,098 : INFO : Machine : Shutting down...
+2020-05-15 15:31:28,098 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2020-05-15 15:31:28,099 : ERROR : OPP : Stop called on serial connection /dev/ttyACM2
+2020-05-15 15:31:28,099 : ERROR : OPP : Stop called on serial connection /dev/ttyACM1
+2020-05-15 15:31:28,099 : ERROR : OPP : Stop called on serial connection /dev/ttyACM0
+2020-05-15 15:31:28,158 : INFO : root : MPF run loop ended.

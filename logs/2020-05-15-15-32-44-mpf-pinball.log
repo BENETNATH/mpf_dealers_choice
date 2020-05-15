@@ -1,0 +1,1149 @@
+2020-05-15 15:32:44,831 : INFO : root : Loading config.
+2020-05-15 15:32:44,836 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2020-05-15 15:32:44,837 : INFO : ConfigProcessor : Loading config from cache: /tmp/f769d6d277b927631eb42efb29e773ab.mpf_cache
+2020-05-15 15:32:45,069 : INFO : ConfigProcessor : Loading config from cache: /tmp/d964ef655ecb78b725ff15fc39405639.mpf_cache
+2020-05-15 15:32:45,072 : INFO : ConfigProcessor : Loading config from cache: /tmp/47f1230cf12d95ec6fd446cbfe48c3da.mpf_cache
+2020-05-15 15:32:45,073 : INFO : ConfigProcessor : Loading config from cache: /tmp/55abfb76abba0f6080480ef04b5360ae.mpf_cache
+2020-05-15 15:32:45,074 : INFO : ConfigProcessor : Loading config from cache: /tmp/d964ef655ecb78b725ff15fc39405639.mpf_cache
+2020-05-15 15:32:45,075 : INFO : ConfigProcessor : Loading config from cache: /tmp/2546fcfb07b4b71824e8d811d5d3d1fc.mpf_cache
+2020-05-15 15:32:45,076 : INFO : ConfigProcessor : Loading config from cache: /tmp/bf35451000d8eb08d7cb6ca13d9c5b7d.mpf_cache
+2020-05-15 15:32:45,077 : INFO : Machine : Mission Pinball Framework Core Engine v0.54.0-dev.34
+2020-05-15 15:32:45,077 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2020-05-15-15-32-44-mpf-pinball.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2020-05-15 15:32:45,077 : INFO : Machine : MPF path: /home/ben/.local/lib/python3.6/site-packages/mpf
+2020-05-15 15:32:45,077 : INFO : Machine : Machine path: /home/ben/pinball
+2020-05-15 15:32:45,077 : INFO : Machine : Platform: linux
+2020-05-15 15:32:45,078 : INFO : Machine : Python executable location: /usr/bin/python3
+2020-05-15 15:32:45,078 : INFO : Machine : Python version: 3.6.9 (64-bit)
+2020-05-15 15:32:45,080 : INFO : Machine : Initialise MPF.
+2020-05-15 15:32:45,269 : INFO : OPP : Connecting to /dev/ttyACM1 at 115200bps
+2020-05-15 15:32:45,299 : INFO : OPP : Init of OPP board 0 done
+2020-05-15 15:32:45,299 : INFO : OPP : Connecting to /dev/ttyACM0 at 115200bps
+2020-05-15 15:32:45,330 : INFO : OPP : Init of OPP board 1 done
+2020-05-15 15:32:45,330 : INFO : OPP : Connecting to /dev/ttyACM2 at 115200bps
+2020-05-15 15:32:45,361 : INFO : OPP : Init of OPP board 2 done
+2020-05-15 15:32:45,362 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2020-05-15 15:32:45,484 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 400, 'prev_value': None, 'change': True}
+2020-05-15 15:32:45,485 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.54.0-dev.34', 'prev_value': None, 'change': True}
+2020-05-15 15:32:45,485 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.54.0-dev.34, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2020-05-15 15:32:45,485 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.9', 'prev_value': None, 'change': True}
+2020-05-15 15:32:45,487 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-5.3.0-51-generic-x86_64-with-Ubuntu-18.04-bionic', 'prev_value': None, 'change': True}
+2020-05-15 15:32:45,487 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2020-05-15 15:32:45,487 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '5.3.0-51-generic', 'prev_value': None, 'change': True}
+2020-05-15 15:32:45,487 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#44~18.04.2-Ubuntu SMP Thu Apr 23 14:27:18 UTC 2020', 'prev_value': None, 'change': True}
+2020-05-15 15:32:45,487 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2020-05-15 15:32:45,487 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2020-05-15 15:32:45,557 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2020-05-15 15:32:45,558 : INFO : SwitchController : Found active switch: ('0-0-18', <Platform.OPP>)
+2020-05-15 15:32:45,579 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2020-05-15 15:32:45,585 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2020-05-15 15:32:47,255 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2020-05-15 15:32:47,256 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2020-05-15 15:32:47,263 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.54.0-dev.7', 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,264 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.54.0-dev.7 (config_version=5, BCP v1.1, Requires MPF v0.54.0-dev.0)', 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,268 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,273 : INFO : ball_device.bd_drain : State: idle
+2020-05-15 15:32:47,339 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2020-05-15 15:32:47,353 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2020-05-15 15:32:47,355 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,363 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,364 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 540.0, 'top': [600, 600, 600, 400, 300], 'total': 5}, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,365 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Drain'====== Args={'value': 59, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,367 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Left_Bottom'====== Args={'value': 219, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,370 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Left_Top'====== Args={'value': 208, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,376 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Right_Bottom'====== Args={'value': 221, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,377 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Right_Top'====== Args={'value': 221, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,378 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Inlane_Bottom'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,379 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Lane_Top_Left'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,380 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Lane_Top_Right'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,381 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Left_Bumper'====== Args={'value': 76, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,387 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Outlane_Left'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,388 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Outlane_Right'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,389 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Right_Bumper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,390 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Roller_1000'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,391 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Rollover_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,397 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Rollover_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,398 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Rollover_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,399 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Rollover_4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,400 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Rollover_5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,405 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Rollover_6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,407 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Rollover_7'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,411 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Rollover_8'====== Args={'value': 43, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,413 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Rollover_9'====== Args={'value': 9, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,415 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_SPECIAL'====== Args={'value': 18, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,417 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Slingshot_Left'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,419 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Slingshot_Right'====== Args={'value': 18, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,421 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Start_Button'====== Args={'value': 3, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,422 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Target_10'====== Args={'value': 54, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,423 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Target_1000_Top'====== Args={'value': 15, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,424 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Target_A'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,425 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Target_Adv_Bonus_Left_Bottom'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,426 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Target_Adv_Bonus_Left_Top'====== Args={'value': 17, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,428 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Target_Adv_Bonus_Right_Top'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,430 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Target_J'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,431 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Target_K'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,432 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Target_Q'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,433 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Tilt_Plumb'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,435 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Tilt_Roll'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,436 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Tilt_playfield'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,438 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Top_Bumper'====== Args={'value': 62, 'prev_value': None, 'change': True}
+2020-05-15 15:32:47,439 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2020-05-15 15:32:47,471 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2020-05-15 15:32:47,472 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2020-05-15 15:32:47,503 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:32:47,509 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:32:47,518 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:32:47,518 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2020-05-15 15:32:47,518 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2020-05-15 15:32:47,519 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2020-05-15 15:32:47,521 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2020-05-15 15:32:47,525 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2020-05-15 15:32:47,526 : INFO : Mode.attract : Started. Priority: 10
+2020-05-15 15:32:47,527 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2020-05-15 15:32:47,531 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2020-05-15 15:32:47,538 : INFO : Machine : Starting the main run loop.
+2020-05-15 15:32:47,609 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:32:47,609 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:32:50,557 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:32:50,557 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:32:53,542 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:32:53,554 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:32:55,992 : INFO : BcpServer : New client connected.
+2020-05-15 15:32:56,551 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:32:56,556 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:32:59,545 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:32:59,551 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:32:59,556 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:02,539 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:02,550 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:02,556 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:05,543 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:05,573 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:05,573 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:08,543 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:08,549 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:08,553 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:11,539 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:11,545 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:11,547 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:14,546 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:14,553 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:14,557 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:17,533 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:17,538 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:17,544 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:20,547 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:20,552 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:20,557 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:23,534 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:23,542 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:23,543 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:26,539 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:26,553 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:26,555 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:29,541 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:29,555 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:29,557 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:32,544 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:32,549 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:32,553 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:35,545 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:35,553 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:35,556 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:38,539 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:38,555 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:38,557 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:41,541 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:41,554 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:41,556 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:44,545 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:44,555 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:44,559 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:47,541 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:47,555 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:47,556 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:50,537 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:50,560 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:50,561 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:53,539 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:53,544 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:53,547 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:56,544 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:56,554 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:56,564 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:33:59,535 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:33:59,540 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:33:59,549 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:02,548 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:02,557 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:02,568 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:05,544 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:05,549 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:05,552 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:08,541 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:08,551 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:08,557 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:11,536 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:11,541 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:11,550 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:14,537 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:14,551 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:14,554 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:17,537 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:17,541 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:17,551 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:20,551 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:20,564 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:20,575 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:23,534 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:23,539 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:23,548 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:26,545 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:26,549 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:26,555 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:29,539 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:29,549 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:29,552 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:32,546 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:32,550 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:32,557 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:35,535 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:35,541 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:35,548 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:38,536 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:38,550 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:38,559 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:41,537 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:41,542 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:41,549 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:44,538 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:44,548 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:44,554 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:47,537 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:47,542 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:47,549 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:50,542 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:50,553 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:50,558 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:53,542 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:53,547 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:53,552 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:56,547 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:56,558 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:56,570 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:34:59,537 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:34:59,539 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:34:59,548 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:02,545 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:02,547 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:02,552 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:05,538 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:05,544 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:05,547 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:08,544 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:08,553 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:08,557 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:11,538 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:11,542 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:11,549 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:14,538 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:14,552 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:14,557 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:17,543 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:17,548 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:17,554 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:20,541 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:20,551 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:20,555 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:23,548 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:23,550 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:23,555 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:26,544 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:26,551 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:26,556 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:29,545 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:29,556 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:29,557 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:32,542 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:32,644 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:32,650 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:35,540 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:35,548 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:35,551 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:38,542 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:38,552 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:38,556 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:41,548 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:41,551 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:41,553 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:44,549 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:44,551 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:44,556 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:47,537 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:47,550 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:47,556 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:50,538 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:50,548 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:50,552 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:53,534 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:53,538 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:53,545 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:56,537 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:56,550 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:56,552 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:35:59,546 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:35:59,548 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:35:59,552 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:02,539 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:02,551 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:02,557 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:05,535 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:05,542 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:05,550 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:08,544 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:08,552 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:08,556 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:11,536 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:11,540 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:11,548 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:14,544 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:14,548 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:14,553 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:17,535 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:17,540 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:17,545 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:20,540 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:20,554 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:20,558 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:23,548 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:23,549 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:23,552 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:26,543 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:26,550 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:26,555 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:29,538 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:29,552 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:29,553 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:32,536 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:32,550 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:32,552 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:35,544 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:35,554 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:35,556 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:38,536 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:38,550 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:38,553 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:41,546 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:41,551 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:41,556 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:44,546 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:44,555 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:44,558 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:47,539 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:47,549 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:47,550 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:50,536 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:50,554 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:50,555 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:53,536 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:53,542 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:53,548 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:56,541 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:56,552 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:56,553 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:36:59,536 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:36:59,548 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:36:59,549 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:02,537 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:02,552 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:02,553 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:05,533 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:05,541 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:05,545 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:08,536 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:08,549 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:08,553 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:11,539 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:11,549 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:11,551 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:14,541 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:14,555 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:14,557 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:17,536 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:17,541 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:17,548 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:20,540 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:20,550 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:20,554 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:23,534 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:23,539 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:23,542 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:26,541 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:26,555 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:26,559 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:29,545 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:29,551 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:29,554 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:32,536 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:32,544 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:32,550 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:35,546 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:35,555 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:35,556 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:38,535 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:38,543 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:38,549 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:41,544 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:41,555 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:41,556 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:44,545 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:44,553 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:44,557 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:47,534 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:47,538 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:47,542 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:50,536 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:50,548 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:50,550 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:53,543 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:53,548 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:53,551 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:56,535 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:56,551 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:56,554 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:37:59,542 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:37:59,547 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:37:59,550 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:02,540 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:02,550 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:02,556 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:05,540 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:05,542 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:05,551 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:08,544 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:08,552 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:08,556 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:11,538 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:11,553 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:11,554 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:14,541 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:14,555 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:14,560 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:17,545 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:17,557 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:17,559 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:20,542 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:20,547 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:20,560 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:23,557 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:23,558 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:23,559 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:26,055 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' active >>>>>>>
+2020-05-15 15:38:26,196 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' inactive >>>>>>>
+2020-05-15 15:38:26,544 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:26,548 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:26,553 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:29,541 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:29,548 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:29,552 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:30,530 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' active >>>>>>>
+2020-05-15 15:38:30,654 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' inactive >>>>>>>
+2020-05-15 15:38:32,541 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:32,649 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:32,660 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:32,843 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' active >>>>>>>
+2020-05-15 15:38:33,282 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' inactive >>>>>>>
+2020-05-15 15:38:35,537 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:35,541 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:35,551 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:36,043 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' active >>>>>>>
+2020-05-15 15:38:38,539 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:38,547 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:38,552 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:39,043 : INFO : EventManager : Event: ======'flipper_cradle'====== Args={}
+2020-05-15 15:38:41,538 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:41,543 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:41,547 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:43,316 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' inactive >>>>>>>
+2020-05-15 15:38:43,316 : INFO : EventManager : Event: ======'flipper_cradle_release'====== Args={}
+2020-05-15 15:38:43,383 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' active >>>>>>>
+2020-05-15 15:38:43,826 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' inactive >>>>>>>
+2020-05-15 15:38:43,930 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' active >>>>>>>
+2020-05-15 15:38:44,539 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:44,548 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:44,555 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:46,657 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' inactive >>>>>>>
+2020-05-15 15:38:46,760 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' active >>>>>>>
+2020-05-15 15:38:47,535 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:47,540 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:47,547 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:48,104 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' inactive >>>>>>>
+2020-05-15 15:38:50,545 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:50,559 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:50,561 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:53,536 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:53,546 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:53,552 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:56,547 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:56,556 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:56,565 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:38:59,545 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:38:59,549 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:38:59,553 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:02,537 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:02,545 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:02,553 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:05,537 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:05,546 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:05,549 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:08,544 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:08,553 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:08,557 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:11,539 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:11,544 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:11,547 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:14,537 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:14,545 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:14,550 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:17,545 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:17,554 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:17,558 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:20,545 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:20,556 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:20,565 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:23,545 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:23,550 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:23,554 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:26,544 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:26,552 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:26,556 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:29,547 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:29,548 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:29,551 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:32,545 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:32,553 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:32,557 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:35,534 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:35,546 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:35,547 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:38,535 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:38,547 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:38,552 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:41,545 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:41,549 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:41,550 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:44,543 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:44,551 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:44,556 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:47,541 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:47,542 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:47,547 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:50,548 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:50,552 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:50,558 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:53,538 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:53,548 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:53,553 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:56,535 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:56,546 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:56,556 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:39:59,541 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:39:59,546 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:39:59,549 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:02,540 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:02,547 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:02,554 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:05,544 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:05,546 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:05,549 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:08,536 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:08,548 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:08,552 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:11,544 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:11,549 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:11,554 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:14,545 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:14,553 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:14,564 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:17,548 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:17,552 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:17,554 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:20,539 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:20,546 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:20,551 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:23,544 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:23,548 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:23,553 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:26,547 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:26,557 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:26,565 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:29,546 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:29,550 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:29,554 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:32,545 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:32,550 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:32,554 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:35,543 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:35,548 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:35,553 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:38,539 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:38,547 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:38,551 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:41,538 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:41,546 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:41,548 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:44,545 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:44,553 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:44,558 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:47,538 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:47,548 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:47,549 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:50,544 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:50,552 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:50,557 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:53,538 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:53,543 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:53,547 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:56,546 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:56,554 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:56,559 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:40:59,536 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:40:59,545 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:40:59,546 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:02,538 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:02,546 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:02,550 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:05,546 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:05,548 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:05,553 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:08,540 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:08,548 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:08,552 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:11,545 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:11,550 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:11,554 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:14,537 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:14,551 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:14,556 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:17,546 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:17,550 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:17,554 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:20,547 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:20,556 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:20,565 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:23,547 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:23,548 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:23,551 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:26,548 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:26,554 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:26,558 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:29,534 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:29,546 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:29,547 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:32,544 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:32,650 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:32,657 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:35,538 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:35,547 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:35,550 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:38,537 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:38,548 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:38,552 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:41,546 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:41,550 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:41,555 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:44,539 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:44,548 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:44,552 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:47,539 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:47,541 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:47,545 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:50,543 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:50,553 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:50,558 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:53,533 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:53,546 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:53,547 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:56,549 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:56,554 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:56,564 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:41:59,542 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:41:59,547 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:41:59,550 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:02,540 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:02,548 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:02,552 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:05,542 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:05,550 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:05,552 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:08,536 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:08,547 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:08,552 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:11,543 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:11,547 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:11,549 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:14,538 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:14,546 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:14,550 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:17,539 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:17,543 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:17,546 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:20,537 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:20,548 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:20,554 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:23,538 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:23,544 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:23,547 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:26,544 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:26,551 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:26,556 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:29,538 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:29,543 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:29,547 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:32,540 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:32,547 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:32,552 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:35,546 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:35,552 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:35,557 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:38,537 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:38,549 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:38,553 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:41,537 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:41,545 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:41,549 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:44,539 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:44,547 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:44,552 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:47,543 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:47,547 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:47,552 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:50,540 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:50,548 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:50,552 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:53,545 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:53,552 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:53,557 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:56,545 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:56,553 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:56,557 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:42:59,540 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:42:59,545 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:42:59,548 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:02,546 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:02,554 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:02,567 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:05,540 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:05,545 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:05,548 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:08,534 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:08,548 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:08,554 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:11,546 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:11,548 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:11,552 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:14,538 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:14,546 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:14,552 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:17,535 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:17,546 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:17,548 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:20,543 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:20,551 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:20,555 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:23,541 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:23,546 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:23,549 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:26,541 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:26,552 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:26,556 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:29,536 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:29,547 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:29,550 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:32,536 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:32,546 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:32,550 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:35,544 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:35,549 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:35,553 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:38,544 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:38,552 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:38,557 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:41,541 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:41,545 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:41,550 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:44,539 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:44,551 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:44,555 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:47,539 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:47,540 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:47,543 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:50,544 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:50,552 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:50,558 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:53,546 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:53,551 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:53,556 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:56,545 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:56,553 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:56,557 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:43:59,538 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:43:59,545 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:43:59,549 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:02,535 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:02,547 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:02,549 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:05,549 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:05,552 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:05,558 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:08,540 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:08,544 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:08,550 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:11,544 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:11,546 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:11,549 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:14,547 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:14,557 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:14,565 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:17,534 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:17,546 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:17,547 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:20,543 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:20,550 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:20,556 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:23,540 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:23,546 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:23,549 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:26,541 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:26,549 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:26,553 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:29,541 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:29,547 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:29,550 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:32,548 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:32,662 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:32,669 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:35,536 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:35,546 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:35,548 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:38,538 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:38,564 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:38,567 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:41,558 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:41,559 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:41,561 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:44,540 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:44,547 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:44,554 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:47,534 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:47,538 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:47,545 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:50,556 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:50,557 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:50,566 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:53,543 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:53,547 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:53,549 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:56,546 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:56,554 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:56,558 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:44:59,540 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:44:59,545 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:44:59,548 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:02,545 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:02,549 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:02,554 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:05,538 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:05,545 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:05,548 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:08,543 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:08,548 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:08,552 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:11,534 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:11,538 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:11,546 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:14,546 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:14,554 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:14,558 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:17,539 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:17,544 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:17,547 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:20,534 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:20,544 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:20,548 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:23,540 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:23,545 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:23,549 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:26,536 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:26,548 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:26,554 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:29,544 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:29,549 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:29,552 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:32,535 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:32,548 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:32,550 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:35,538 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:35,543 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:35,547 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:38,539 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:38,550 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:38,554 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:41,540 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:41,542 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:41,547 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:44,542 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:44,550 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:44,556 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:47,545 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:47,551 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:47,555 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:50,542 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:50,545 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:50,549 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:53,538 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:53,546 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:53,549 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:56,539 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:56,550 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:56,555 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:45:59,538 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:45:59,543 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:45:59,547 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:02,551 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:02,555 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:02,568 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:05,541 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:05,542 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:05,546 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:08,544 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:08,553 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:08,556 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:11,536 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:11,547 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:11,549 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:14,544 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:14,551 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:14,556 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:17,537 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:17,545 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:17,548 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:20,536 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:20,547 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:20,549 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:23,540 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:23,545 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:23,548 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:26,544 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:26,555 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:26,563 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:29,546 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:29,550 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:29,553 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:32,543 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:32,551 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:32,555 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:35,534 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:35,539 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:35,546 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:38,546 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:38,554 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:38,558 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:41,536 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:41,545 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:41,549 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:44,544 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:44,555 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:44,561 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:47,541 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:47,546 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:47,549 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:50,546 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:50,554 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:50,558 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:53,542 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:53,547 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:53,551 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:56,541 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:56,553 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:56,554 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:46:59,545 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:46:59,556 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:46:59,557 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:02,544 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:02,552 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:02,557 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:05,542 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:05,547 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:05,552 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:08,547 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:08,555 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:08,561 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:11,542 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:11,548 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:11,552 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:14,544 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:14,548 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:14,555 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:17,534 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:17,544 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:17,547 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:20,546 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:20,554 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:20,560 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:23,545 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:23,547 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:23,550 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:26,544 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:26,552 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:26,556 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:29,537 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:29,546 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:29,549 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:32,539 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:32,551 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:32,557 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:34,017 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' active >>>>>>>
+2020-05-15 15:47:35,547 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:35,551 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:35,554 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:35,842 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' inactive >>>>>>>
+2020-05-15 15:47:38,547 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:38,559 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:38,563 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:40,982 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' active >>>>>>>
+2020-05-15 15:47:41,546 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:41,558 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:41,560 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:43,982 : INFO : EventManager : Event: ======'flipper_cradle'====== Args={}
+2020-05-15 15:47:44,537 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:44,545 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:44,559 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:44,969 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' inactive >>>>>>>
+2020-05-15 15:47:44,970 : INFO : EventManager : Event: ======'flipper_cradle_release'====== Args={}
+2020-05-15 15:47:47,543 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:47,548 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:47,551 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:50,541 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:50,559 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:50,561 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:53,541 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:53,546 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:53,550 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:56,546 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:56,550 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:56,560 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:47:59,541 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:47:59,543 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2020-05-15 15:47:59,546 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:48:01,520 : INFO : SwitchController : <<<<<<< 's_Start_Button' active >>>>>>>
+2020-05-15 15:48:01,621 : INFO : SwitchController : <<<<<<< 's_Start_Button' inactive >>>>>>>
+2020-05-15 15:48:01,622 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2020-05-15 15:48:01,623 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.1006979680000768}
+2020-05-15 15:48:01,624 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.1006979680000768}
+2020-05-15 15:48:01,626 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.1006979680000768}
+2020-05-15 15:48:01,626 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2020-05-15 15:48:01,627 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2020-05-15 15:48:01,628 : INFO : Mode.attract : Stopped.
+2020-05-15 15:48:01,629 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2020-05-15 15:48:01,630 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2020-05-15 15:48:01,631 : INFO : Mode.game : Started. Priority: 20
+2020-05-15 15:48:01,631 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.1006979680000768}
+2020-05-15 15:48:01,633 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2020-05-15 15:48:01,662 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2020-05-15 15:48:01,664 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2020-05-15 15:48:01,667 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2020-05-15 15:48:01,668 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 15:48:01,669 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2020-05-15 15:48:01,670 : INFO : Mode.game : Player added successfully. Total players: 1
+2020-05-15 15:48:01,671 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2020-05-15 15:48:01,671 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2020-05-15 15:48:01,672 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2020-05-15 15:48:01,675 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2020-05-15 15:48:01,677 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 15:48:01,678 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 15:48:01,682 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2020-05-15 15:48:01,683 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2020-05-15 15:48:01,713 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2020-05-15 15:48:01,715 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:48:01,720 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2020-05-15 15:48:01,721 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2020-05-15 15:48:01,723 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2020-05-15 15:48:01,725 : INFO : Mode.base : Started. Priority: 100
+2020-05-15 15:48:01,725 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2020-05-15 15:48:01,730 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2020-05-15 15:48:01,731 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2020-05-15 15:48:01,743 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2020-05-15 15:48:01,772 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:48:01,773 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:48:01,774 : INFO : ball_device.bd_drain : Setting up player-controlled eject. Balls: 1, Target: <playfield.playfield>, player_controlled_eject_event: None
+2020-05-15 15:48:01,775 : INFO : ball_device.bd_drain : Adding 1 ball(s) to the eject_queue with target <playfield.playfield>.
+2020-05-15 15:48:01,776 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2020-05-15 15:48:01,779 : INFO : ball_device.bd_drain : State: waiting_for_target_ready
+2020-05-15 15:48:01,780 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_drain>, 'mechanical_eject': False, 'num_attempts': 0}
+2020-05-15 15:48:01,782 : INFO : ball_device.bd_drain : State: ejecting
+2020-05-15 15:48:01,783 : INFO : ball_device.bd_drain : Ejecting ball to <playfield.playfield>
+2020-05-15 15:48:01,784 : INFO : EventManager : Event: ======'balldevice_bd_drain_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_drain>, 'mechanical_eject': False, 'num_attempts': 0}
+2020-05-15 15:48:01,786 : INFO : ball_device.bd_drain : Wait for ball to leave device
+2020-05-15 15:48:01,787 : INFO : coil.c_Drain : Pulsing Driver for 40ms (1.0 pulse_power)
+2020-05-15 15:48:01,804 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2020-05-15 15:48:01,833 : INFO : SwitchController : <<<<<<< 's_Drain' inactive >>>>>>>
+2020-05-15 15:48:01,834 : INFO : ball_device.bd_drain : State: ball_left
+2020-05-15 15:48:01,835 : INFO : ball_device.bd_drain : Ball left
+2020-05-15 15:48:01,835 : INFO : ball_device.bd_drain : Wait for confirm with timeout 10.0
+2020-05-15 15:48:01,882 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2020-05-15 15:48:01,883 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_created'====== Args={'_from_bcp': True}
+2020-05-15 15:48:01,884 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_active'====== Args={'_from_bcp': True}
+2020-05-15 15:48:06,099 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' active >>>>>>>
+2020-05-15 15:48:06,100 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Left_Bottom'====== Args={'value': 220, 'prev_value': 219, 'change': 1}
+2020-05-15 15:48:06,434 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' inactive >>>>>>>
+2020-05-15 15:48:10,090 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' active >>>>>>>
+2020-05-15 15:48:10,091 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Left_Bottom'====== Args={'value': 221, 'prev_value': 220, 'change': 1}
+2020-05-15 15:48:11,836 : INFO : ball_device.bd_drain : State: failed_confirm
+2020-05-15 15:48:11,837 : INFO : ball_device.bd_drain : Got timeout (10.0s) before confirm from <playfield.playfield>
+2020-05-15 15:48:11,938 : INFO : ball_device.bd_drain : Confirming eject because target is playfield and ball did not return.
+2020-05-15 15:48:11,939 : INFO : ball_device.bd_drain : Eject successful
+2020-05-15 15:48:11,939 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2020-05-15 15:48:11,940 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2020-05-15 15:48:11,940 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2020-05-15 15:48:11,942 : INFO : EventManager : Event: ======'balldevice_bd_drain_ball_count_changed'====== Args={'balls': 0}
+2020-05-15 15:48:11,942 : INFO : ball_device.bd_drain : State: idle
+2020-05-15 15:48:13,077 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' inactive >>>>>>>
+2020-05-15 15:48:14,883 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' active >>>>>>>
+2020-05-15 15:48:14,883 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Left_Bottom'====== Args={'value': 222, 'prev_value': 221, 'change': 1}
+2020-05-15 15:48:14,978 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' inactive >>>>>>>
+2020-05-15 15:48:18,927 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' active >>>>>>>
+2020-05-15 15:48:18,928 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Left_Bottom'====== Args={'value': 223, 'prev_value': 222, 'change': 1}
+2020-05-15 15:48:21,928 : INFO : EventManager : Event: ======'flipper_cradle'====== Args={}
+2020-05-15 15:48:22,727 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' inactive >>>>>>>
+2020-05-15 15:48:22,727 : INFO : EventManager : Event: ======'flipper_cradle_release'====== Args={}
+2020-05-15 15:48:24,570 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' active >>>>>>>
+2020-05-15 15:48:24,571 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Left_Bottom'====== Args={'value': 224, 'prev_value': 223, 'change': 1}
+2020-05-15 15:48:27,570 : INFO : EventManager : Event: ======'flipper_cradle'====== Args={}
+2020-05-15 15:48:29,729 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' inactive >>>>>>>
+2020-05-15 15:48:29,729 : INFO : EventManager : Event: ======'flipper_cradle_release'====== Args={}
+2020-05-15 15:49:00,675 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Top' active >>>>>>>
+2020-05-15 15:49:00,676 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Left_Top'====== Args={'value': 209, 'prev_value': 208, 'change': 1}
+2020-05-15 15:49:04,777 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' active >>>>>>>
+2020-05-15 15:49:04,777 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Left_Bottom'====== Args={'value': 225, 'prev_value': 224, 'change': 1}
+2020-05-15 15:49:04,933 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' inactive >>>>>>>
+2020-05-15 15:49:05,683 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' active >>>>>>>
+2020-05-15 15:49:05,683 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Left_Bottom'====== Args={'value': 226, 'prev_value': 225, 'change': 1}
+2020-05-15 15:49:05,790 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' inactive >>>>>>>
+2020-05-15 15:49:06,278 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' active >>>>>>>
+2020-05-15 15:49:06,278 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Left_Bottom'====== Args={'value': 227, 'prev_value': 226, 'change': 1}
+2020-05-15 15:49:08,430 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Top' inactive >>>>>>>
+2020-05-15 15:49:08,541 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Top' active >>>>>>>
+2020-05-15 15:49:08,541 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Left_Top'====== Args={'value': 210, 'prev_value': 209, 'change': 1}
+2020-05-15 15:49:09,280 : INFO : EventManager : Event: ======'flipper_cradle'====== Args={}
+2020-05-15 15:49:09,281 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' inactive >>>>>>>
+2020-05-15 15:49:09,281 : INFO : EventManager : Event: ======'flipper_cradle_release'====== Args={}
+2020-05-15 15:49:09,422 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' active >>>>>>>
+2020-05-15 15:49:09,423 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_Flipper_Left_Bottom'====== Args={'value': 228, 'prev_value': 227, 'change': 1}
+2020-05-15 15:49:09,757 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Bottom' inactive >>>>>>>
+2020-05-15 15:49:10,689 : INFO : SwitchController : <<<<<<< 's_Flipper_Left_Top' inactive >>>>>>>
+2020-05-15 15:49:28,189 : INFO : Machine : Shutting down...
+2020-05-15 15:49:28,190 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2020-05-15 15:49:28,194 : ERROR : OPP : Stop called on serial connection /dev/ttyACM2
+2020-05-15 15:49:28,195 : ERROR : OPP : Stop called on serial connection /dev/ttyACM1
+2020-05-15 15:49:28,196 : ERROR : OPP : Stop called on serial connection /dev/ttyACM0
+2020-05-15 15:49:28,261 : INFO : root : MPF run loop ended.

@@ -1,0 +1,316 @@
+#config_version=5
+
+hardware:
+    platform: opp
+    driverboards: gen2
+
+opp:
+    ports: /dev/ttyACM1, /dev/ttyACM0, /dev/ttyACM2
+    chains:
+       0: /dev/ttyACM1
+       1: /dev/ttyACM0
+       2: /dev/ttyACM2
+        
+playfields:
+    playfield:
+        default_source_device: bd_drain
+        tags: default
+
+displays:
+  window:
+    width: 800
+    height: 600
+
+ball_devices:
+    bd_drain:
+        ball_switches: s_Drain
+        eject_coil: c_Drain
+        tags: drain, home, trough
+        
+modes:
+    - base  
+    - attract
+    
+slides:
+  welcome_slide:
+    widgets:
+      - type: text
+        text: PINBALL!
+        font_size: 50
+        color: red
+      - type: rectangle
+        width: 240
+        height: 60
+slide_player:
+   init_done: welcome_slide
+
+keyboard:
+    z:
+        switch: s_Start_Button
+
+switches:
+ s_Target_J:
+  number: 0-0-1
+ s_Target_Q:
+  number: 0-0-2
+ s_Target_K:
+  number: 0-0-3
+ s_Tilt_playfield:
+  number: 0-0-7
+ s_Flipper_Left_Bottom:
+  number: 0-0-8
+  tags: left_flipper  
+ s_Flipper_Left_Top:
+  number: 0-0-9
+ s_Flipper_Right_Bottom:
+  number: 0-0-10
+  tags: right_flipper
+ s_Flipper_Right_Top:
+  number: 0-0-11
+ s_Slingshot_Left:
+  number: 0-0-16
+ s_Slingshot_Right:
+  number: 0-0-17
+ s_Drain:
+  number: 0-0-18
+ s_Outlane_Right:
+  number: 0-0-24
+  tags: playfield_active  
+ s_Inlane_Bottom:
+  number: 0-0-25
+  tags: playfield_active  
+ s_Rollover_9:
+  number: 0-0-26
+ s_Rollover_8:
+  number: 0-0-27
+ s_Rollover_7:
+  number: 0-0-28
+  tags: playfield_active
+ s_Target_10:
+  number: 0-0-29
+ s_Target_Adv_Bonus_Left_Bottom:
+  number: 0-0-30
+ s_Outlane_Left:
+  number: 0-0-31
+  tags: playfield_active
+ s_Rollover_6:
+  number: 1-0-1
+ s_Rollover_5:
+  number: 1-0-2
+ s_Rollover_4:
+  number: 1-0-3
+ s_Rollover_3:
+  number: 1-0-5
+ s_Rollover_2:
+  number: 1-0-6
+ s_Rollover_1:
+  number: 1-0-7
+ s_Left_Bumper:
+  number: 1-0-8
+ s_Right_Bumper:
+  number: 1-0-9
+ s_Top_Bumper:
+  number: 1-0-10
+ s_Target_1000_Top:
+  number: 1-0-16
+ s_Lane_Top_Left:
+  number: 1-0-17
+  tags: playfield_active
+ s_Lane_Top_Right:
+  number: 1-0-18
+  tags: playfield_active
+ s_Roller_1000:
+  number: 1-0-19
+  tags: playfield_active
+ s_SPECIAL:
+  number: 1-0-20
+ s_Target_Adv_Bonus_Right_Top:
+  number: 1-0-21
+ s_Target_Adv_Bonus_Left_Top:
+  number: 1-0-22
+ s_Target_A:
+  number: 1-0-23
+ s_Start_Button:
+  number: 2-0-24
+  tags: start
+ s_Tilt_Plumb:
+  number: 2-0-25
+ s_Tilt_Roll:
+  number: 2-0-26
+
+coils:
+ c_Flipper_Left_Bottom:
+  number: 0-0-4
+  allow_enable: true
+ c_Flipper_Left_Top:
+  number: 0-0-5
+  allow_enable: true
+ c_Flipper_Right_Bottom:
+  number: 0-0-6
+  allow_enable: true
+ c_Flipper_Right_Top:
+  number: 0-0-7
+  allow_enable: true
+ c_Slingshot_Left:
+  number: 0-0-8
+  default_pulse_ms: 20
+ c_Slingshot_Right:
+  number: 0-0-9
+  default_pulse_ms: 20
+ c_Drain:
+  number: 0-0-10
+  default_pulse_ms: 40
+ c_Left_Bumper:
+  number: 1-0-4
+  default_pulse_ms: 20
+ c_Right_Bumper:
+  number: 1-0-5
+  default_pulse_ms: 20
+ c_Top_Bumper:
+  number: 1-0-6
+  default_pulse_ms: 20
+ c_Chime_1:
+  number: 2-0-4
+  default_pulse_ms: 20
+ c_Chime_2:
+  number: 2-0-5
+  default_pulse_ms: 20
+ c_Chime_3:
+  number: 2-0-6
+  default_pulse_ms: 20
+ c_Knocker:
+  number: 2-0-7
+  default_pulse_ms: 20
+  
+autofire_coils:
+  Slingshot_Left:
+    coil: c_Slingshot_Left
+    switch: s_Slingshot_Left
+  Slingshot_Right:
+    coil: c_Slingshot_Right
+    switch: s_Slingshot_Right
+  Left_Bumper:
+    coil: c_Left_Bumper
+    switch: s_Left_Bumper
+  Right_Bumper:
+    coil: c_Right_Bumper
+    switch: s_Right_Bumper
+  Top_Bumper:
+    coil: c_Top_Bumper
+    switch: s_Top_Bumper  
+  
+flippers: 
+ Flipper_Left_Bottom:
+  main_coil: c_Flipper_Left_Bottom
+  activation_switch: s_Flipper_Left_Bottom
+ Flipper_Right_Bottom:
+  main_coil: c_Flipper_Right_Bottom
+  activation_switch: s_Flipper_Right_Bottom
+ Flipper_Left_Top:
+  main_coil: c_Flipper_Left_Top
+  activation_switch: s_Flipper_Left_Top
+ Flipper_Right_Top:
+  main_coil: c_Flipper_Right_Top
+  activation_switch: s_Flipper_Right_Top
+  
+lights:
+ l_Test:
+  channels:
+   red:
+    - number: 0-0-0
+   green:
+    - number: 0-0-1
+   blue:
+    - number: 0-0-2
+   white:
+    - number: 0-0-3
+ l_Bonus_1000:
+  channels:
+   red:
+    - number: 0-0-4
+   green:
+    - number: 0-0-5
+   blue:
+    - number: 0-0-6
+   white:
+    - number: 0-0-7
+ l_Bonus_2000:
+  channels:
+   red:
+    - number: 0-0-8
+   green:
+    - number: 0-0-9
+   blue:
+    - number: 0-0-10
+   white:
+    - number: 0-0-11
+ l_Bonus_3000:
+  channels:
+   red:
+    - number: 0-0-12
+   green:
+    - number: 0-0-13
+   blue:
+    - number: 0-0-14
+   white:
+    - number: 0-0-15
+ l_Bonus_4000:
+  channels:
+   red:
+    - number: 0-0-16
+   green:
+    - number: 0-0-17
+   blue:
+    - number: 0-0-18
+   white:
+    - number: 0-0-19
+ l_Bonus_5000:
+  channels:
+   red:
+    - number: 0-0-20
+   green:
+    - number: 0-0-21
+   blue:
+    - number: 0-0-22
+   white:
+    - number: 0-0-23
+ l_Bonus_6000:
+  channels:
+   red:
+    - number: 0-0-24
+   green:
+    - number: 0-0-25
+   blue:
+    - number: 0-0-26
+   white:
+    - number: 0-0-27
+ l_Bonus_7000:
+  channels:
+   red:
+    - number: 0-0-28
+   green:
+    - number: 0-0-29
+   blue:
+    - number: 0-0-30
+   white:
+    - number: 0-0-31
+ l_Bonus_8000:
+  channels:
+   red:
+    - number: 0-0-32
+   green:
+    - number: 0-0-33
+   blue:
+    - number: 0-0-34
+   white:
+    - number: 0-0-35
+ l_Bonus_9000:
+  channels:
+   red:
+    - number: 0-0-36
+   green:
+    - number: 0-0-37
+   blue:
+    - number: 0-0-38
+   white:
+    - number: 0-0-39
