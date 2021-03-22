@@ -2,12 +2,18 @@ Dealer's choive 2.0 Ruleset
 ---------------------------
 
 Version : 0.1
+
 Author : Benoit Petit-Demouliere
+
 Source : https://github.com/BENETNATH/mpf_dealers_choice
+
 Topic : https://pinside.com/pinball/forum/topic/trying-to-revive-an-old-em-dealer-s-choice-with-opp-and-mpf
 
 Pinball : Dealer's Choice, Williams 1973
-4 players EM, 4 flippers, 3 bumpers, 10 rollovers, 8 standup targets, a row of 10 lights playfield-centered between flippers
+
+        4 players EM, 4 flippers, 3 bumpers
+        10 rollovers, 8 standup targets
+        a row of 10 lights playfield-centered between flippers
 
 Comments: this is a first draft, need to be coded and adjusted !
 
@@ -28,10 +34,12 @@ On ball serve, the 10 bonus lights are pulsating from 1 to 10 (Value written on 
         Value is 0.5 * the value of the light when the shot is made => up to 5000 Pts
 
 * Hidden skill shot 1:
+
         Press left flipper button for 1 sec to discard skill shot lights, then shoot top right lane then directly "advance bonus" target
         Value is 1 * the value of the light when the shot is made => up to 10000 Pts
 
 * Hidden skill shot 2:
+
         Press right flipper button for 1 sec to discard skill shot lights, then shoot top left lane then directly "SPECIAL" lane switch
         Value is 1 * the value of the light when the shot is made => up to 10000 Pts
 
@@ -54,7 +62,6 @@ On ball serve, the 10 bonus lights are pulsating from 1 to 10 (Value written on 
     1. First times : 	2000 + lights Bonus double (x2 End Bonus)
 	2. Second time : 	3500 + lights Bonus triple (x3 End bonus)
 	3. Again : 			5000
-	
 - Target Cards (10, J, Q, K, A) :
 	1. First time -> lights Extraball (right inlane)
 	2. Second time -> lights Special (right top lane (Special)
