@@ -20,7 +20,7 @@
 #               PPP     OOOOOOOO     PPP
 #              PPPPP      OOOO      PPPPP
 #
-# @file:   STM32card4.py
+# @file:   STM32card5.py
 # @author: Benoit Petit-D
 # @date:   18/04/2020
 #
