@@ -1,7 +1,7 @@
-Dealer's choive 2.0 Ruleset
+Dealer's choice 2.0 Ruleset
 ---------------------------
 
-Version : 0.1
+Version : 0.2
 
 Author : Benoit Petit-Demouliere
 
@@ -27,24 +27,33 @@ This ruleset is active by default and corresponds mostly to the initial rules, e
 
 On ball serve, the 10 bonus lights are pulsating from 1 to 10 (Value written on playfield = 1000 to 10000)
 
+[ ] TODO
+
 ***Skill shots*** :
 * Simple skill shot:
 
         One random light is blinking among Top lane left, Top lane right, Top rollover, one of the 3 bumpers
-        Value is 0.5 * the value of the light when the shot is made => up to 5000 Pts
+        Value is 0.5 * the value of the bonus light when the shot is made => up to 5000 Pts
+[ ] TODO
 
 * Hidden skill shot 1:
 
-        Press left flipper button for 1 sec to discard skill shot lights, then shoot top right lane then directly "advance bonus" target
-        Value is 1 * the value of the light when the shot is made => up to 10000 Pts
+        Press right flipper button for 1 sec to discard skill shot lights, then shoot top right lane then directly "advance bonus" target
+        Value is 1 * the value of the bonus light when the shot is made => up to 10000 Pts
+
+[ ] TODO
 
 * Hidden skill shot 2:
 
-        Press right flipper button for 1 sec to discard skill shot lights, then shoot top left lane then directly "SPECIAL" lane switch
-        Value is 1 * the value of the light when the shot is made => up to 10000 Pts
+        Press left flipper button for 1 sec to discard skill shot lights, then shoot top left lane then directly "SPECIAL" lane switch
+        Value is 1 * the value of the bonus light when the shot is made => up to 10000 Pts
+
+[ ] TODO
 
 ***Ball save*** :
         During 8 sec, ball is given back as a ball saver
+	
+[ ] Coded, to be tested live and uploaded
 
 **INGAME**
 
@@ -57,6 +66,8 @@ On ball serve, the 10 bonus lights are pulsating from 1 to 10 (Value written on 
 - Advance Bonus targets : 150 + 1 bonus counter (add 1 light in bonus row)
 - Top Rollover 		1000
 
+[ ] TODO
+
 ***Group shot completion*** :
 - Rollover :
     1. First times : 	2000 + lights Bonus double (x2 End Bonus)
@@ -66,18 +77,26 @@ On ball serve, the 10 bonus lights are pulsating from 1 to 10 (Value written on 
 	1. First time -> lights Extraball (right inlane)
 	2. Second time -> lights Special (right top lane (Special)
 
+[ ] TODO
+
 ***Extraball***:
 - Shoot Right inlane when lit
+
+[ ] TODO
 
 ***Special***: 
 - Shoot Special lane when lit
 	    Brings frenzy mode during 30 sec
 	    All switches worth 10x
 	    Chimes go crazy (TBD)
+	    
+[ ] TODO
 	
 ---------------------------
 II. MODERN RULES
 ---------------------------
+[ ] TODO
+
 This ruleset is activated by keeping left flipper button when pressing start for the first player (mode is active for all players)
 
 Unlimited balls played by each player for a duration of 2 min 30 per ball per player.
