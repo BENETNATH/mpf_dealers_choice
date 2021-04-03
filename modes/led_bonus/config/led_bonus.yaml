@@ -1,0 +1,18 @@
+#config_version=5
+
+mode:
+    start_events: ball_starting
+    stop_events: ball_end
+    priority: 200
+    
+counters:
+    led_bonus:
+        count_events: Advance_Bonus_hit
+        starting_count: 0
+        count_complete_value: 29
+        
+show_player:
+  logicblock_led_bonus_updated{enabled}:
+    led_bonus_show:
+      key: led_bonus_show
+      start_step: value + 1
