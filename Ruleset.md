@@ -70,9 +70,12 @@ On ball serve, the 10 bonus lights are pulsating from 1 to 10 (Value written on 
 
 ***Group shot completion*** :
 - Rollover :
+
     	1. First times : 	lights Bonus double (x2 End Bonus)
-	2. Second time : 	lights Bonus triple (x3 End bonus) + lights 1 to 9 score SPECIAL 
-	3. Again : 		5000 Pts when 'lights 1 to 9 score SPECIAL' is lit 
+
+    	2. Second time : 	lights Bonus triple (x3 End bonus) + lights 1 to 9 score SPECIAL
+    
+    	3. Again : 		5000 Pts when 'lights 1 to 9 score SPECIAL' is lit 
 - Target Cards (10, J, Q, K, A) :
 	1. First time -> lights Extraball (right inlane)
 	2. Next time -> lights Special right top lane -> 5000 Pts when hit
