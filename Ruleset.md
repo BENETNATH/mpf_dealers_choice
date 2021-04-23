@@ -58,12 +58,14 @@ On ball serve, the 10 bonus lights are pulsating from 1 to 10 (Value written on 
 **INGAME**
 
 ***Single shots values*** :
-- Rollover, bumper, top lanes : 100
+- Rollover (starts lit, unlit when hit): 50
+- Bumper (always lit), top lanes : 100
 - Outlanes : 		1000
 - Right inlane : 	1000
 - Special lane : 	1000
 - Cards targets : 	200
-- Advance Bonus targets : 150 + 1 bonus counter (add 1 light in bonus row)
+- slingshots : 		10
+- Advance Bonus targets : 1 bonus counter (add 1 light in bonus row, starts at 1000, max at 10k)
 - Top Rollover 		1000
 
 [ ] TODO
@@ -73,14 +75,15 @@ On ball serve, the 10 bonus lights are pulsating from 1 to 10 (Value written on 
 
     	1. First time : 	lights Bonus double (x2 End Bonus)
 
-    	2. Second time : 	lights Bonus triple (x3 End bonus) + lights 1 to 9 score SPECIAL
+    	2. Second time : 	lights Bonus triple (x3 End bonus) + lights 1 to 9 score SPECIAL (Double bonus is unlit)
     
-    	3. Again : 		5000 Pts when 'lights 1 to 9 score SPECIAL' is lit 
-- Target Cards (10, J, Q, K, A) :
+    	3. Again : 		free game or 5000 Pts when 'lights 1 to 9 score SPECIAL' is lit
+		
+- Target Cards (10, J, Q, K, A) unlit at start, lit when hit:
 
 	1. First time -> lights Extraball (right inlane)
 
-	2. Next time -> lights Special right top lane -> 5000 Pts when hit
+	2. Next time -> lights Special right top lane -> free game or 5000 Pts when hit
 
 [ ] TODO
 
