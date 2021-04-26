@@ -1,0 +1,45 @@
+#config_version=5
+
+mode:
+    start_events: ball_starting
+    stop_events: ball_end
+    priority: 200
+
+counters:
+  Rollover_Nine_complete_count:
+    count_events: Rollover_Nine_complete
+    events_when_hit: Rollover_Nine_done
+    starting_count: 1
+    direction: up
+    persist_state: false
+
+variable_player:
+  mode_double_bonus_started:
+    pf_multiplier:
+      int: 1
+      action: set
+  Rollover_Nine_done{count==2}:
+    pf_multiplier:
+      int: 2
+      action: set
+  Rollover_Nine_done{count==3}:
+    pf_multiplier:
+      int: 3
+      action: set
+  Rollover_Nine_done{count>=4}:
+    score: 5000
+    
+light_player:
+  "{current_player.pf_multiplier >= 3}":
+    l_Double_Bonus: off
+    l_Triple_Bonus: on
+    l_SPECIAL: on
+  "{current_player.pf_multiplier == 2}":
+    l_Double_Bonus: on
+    l_Triple_Bonus: off
+    l_SPECIAL: off
+  "{current_player.pf_multiplier == 1}":
+    l_Double_Bonus: off
+    l_Triple_Bonus: off
+    l_SPECIAL: off
+ 

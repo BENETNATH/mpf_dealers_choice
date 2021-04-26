@@ -1,0 +1,25 @@
+#config_version=5
+
+mode:
+    start_events: ball_starting
+    stop_events: ball_save_ball_saves_ball_save_disabled
+    priority: 110
+
+ball_saves:
+  ball_saves_ball_save:
+    active_time: 10s
+    hurry_up_time: 4s
+    timer_start_events: balldevice_bd_drain_ejecting_ball
+    auto_launch: false
+    balls_to_save: 2
+
+show_player:
+  mode_ball_save_started: 
+   ball_save_light_show:
+    speed: 2
+  ball_save_ball_saves_ball_save_hurry_up:
+   ball_save_light_show:
+    speed: 4
+  ball_save_ball_saves_ball_save_disabled:
+   ball_save_light_show:
+    action: stop

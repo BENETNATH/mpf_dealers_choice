@@ -1,0 +1,82 @@
+#config_version=5
+
+mode:
+    start_events: ball_starting
+    stop_events: ball_end
+    priority: 200
+
+variable_player:
+    Cards_hit:
+        score: 200
+    ball_started:
+        Cards_Bonus:
+          int: 1
+          action: set
+    Cards_complete:
+        Cards_Bonus: 1
+    shot_SPECIAL_hit{current_player.Cards_Bonus >= 3}:
+        score: 5000
+        Cards_Bonus:
+          int: 2
+          action: set
+          
+shots:
+  shot_Target_10:
+    switch: s_Target_10
+    profile: Target_cards
+    show_tokens: 
+        leds: l_Target_10
+  shot_Target_J:
+    switch: s_Target_J
+    profile: Target_cards
+  shot_Target_Q:
+    switch: s_Target_Q
+    profile: Target_cards
+  shot_Target_K:
+    switch: s_Target_K
+    profile: Target_cards    
+  shot_Target_A:
+    switch: s_Target_A
+    profile: Target_cards
+  shot_SPECIAL:
+    switch: s_SPECIAL
+  extra_ball:
+    switch: s_Inlane_Bottom
+            
+coil_player:
+    Cards_hit: c_Chime_1
+    
+shot_groups:
+  Cards:  
+    shots: shot_Target_10, shot_Target_J, shot_Target_Q, shot_Target_K, shot_Target_A
+    enable_events: ball_started
+    reset_events: Cards_complete, ball_ending
+    disable_events: ball_ending
+
+shot_profiles:
+  Target_cards:
+      states:
+      - name: unlit
+        show: off
+      - name: hit
+        show: on
+        
+light_player:
+  mode_target_cards_started:
+    l_EB_Lane: off
+    l_SPECIAL_Lane_2: off
+  "{current_player.extra_balls == 1}":
+    l_EB: on
+    l_EB_Lane: off
+  "{current_player.Cards_Bonus >= 3}":
+    l_SPECIAL_Lane_2: on
+  "{current_player.Cards_Bonus >= 2 and current_player.extra_balls == 0}":
+    l_EB_Lane: on
+    l_SPECIAL_Lane_2: off
+  "{current_player.extra_ball_eb_award_disabled}":
+    l_EB_Lane: off  
+
+
+extra_balls:
+    eb:
+        award_events: extra_ball_hit{current_player.Cards_Bonus >= 2}

@@ -1,0 +1,10 @@
+#config_version=5
+show_player:
+  tilt_warning_1:
+    warning1_light_show:
+      speed: 2
+      loops: 5
+  tilt_warning_2:
+    warning2_light_show:
+      speed: 2
+      loops: 5

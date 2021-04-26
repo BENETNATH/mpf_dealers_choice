@@ -1,0 +1,17 @@
+#show_version=5
+- duration: 1
+  lights:
+    l_Right_Bumper: 
+      color: white
+      fade: 10ms
+    l_Left_Bumper: 
+      color: black
+      fade: 10ms    
+- duration: 1
+  lights:
+    l_Right_Bumper: 
+      color: black
+      fade: 10ms
+    l_Left_Bumper: 
+      color: white
+      fade: 10ms

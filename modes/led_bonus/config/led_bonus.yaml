@@ -5,14 +5,114 @@ mode:
     stop_events: ball_end
     priority: 200
     
-counters:
-    led_bonus:
-        count_events: Advance_Bonus_hit
-        starting_count: 0
-        count_complete_value: 29
-        
-show_player:
-  logicblock_led_bonus_updated{enabled}:
-    led_bonus_show:
-      key: led_bonus_show
-      start_step: value + 1
+light_player:
+  "{current_player.Adv_Bonus == 1}":
+    l_Bonus_1000: white
+    l_Bonus_2000: black
+    l_Bonus_3000: black
+    l_Bonus_4000: black
+    l_Bonus_5000: black
+    l_Bonus_6000: black
+    l_Bonus_7000: black
+    l_Bonus_8000: black
+    l_Bonus_9000: black
+    l_Bonus_10000: black
+  "{current_player.Adv_Bonus == 2}":
+    l_Bonus_1000: white
+    l_Bonus_2000: white
+    l_Bonus_3000: black
+    l_Bonus_4000: black
+    l_Bonus_5000: black
+    l_Bonus_6000: black
+    l_Bonus_7000: black
+    l_Bonus_8000: black
+    l_Bonus_9000: black
+    l_Bonus_10000: black
+  "{current_player.Adv_Bonus == 3}":
+    l_Bonus_1000: white
+    l_Bonus_2000: white
+    l_Bonus_3000: white
+    l_Bonus_4000: black
+    l_Bonus_5000: black
+    l_Bonus_6000: black
+    l_Bonus_7000: black
+    l_Bonus_8000: black
+    l_Bonus_9000: black
+    l_Bonus_10000: black
+  "{current_player.Adv_Bonus == 4}":
+    l_Bonus_1000: white
+    l_Bonus_2000: white
+    l_Bonus_3000: white
+    l_Bonus_4000: white
+    l_Bonus_5000: black
+    l_Bonus_6000: black
+    l_Bonus_7000: black
+    l_Bonus_8000: black
+    l_Bonus_9000: black
+    l_Bonus_10000: black
+  "{current_player.Adv_Bonus == 5}":
+    l_Bonus_1000: white
+    l_Bonus_2000: white
+    l_Bonus_3000: white
+    l_Bonus_4000: white
+    l_Bonus_5000: white
+    l_Bonus_6000: black
+    l_Bonus_7000: black
+    l_Bonus_8000: black
+    l_Bonus_9000: black
+    l_Bonus_10000: black
+  "{current_player.Adv_Bonus == 6}":
+    l_Bonus_1000: white
+    l_Bonus_2000: white
+    l_Bonus_3000: white
+    l_Bonus_4000: white
+    l_Bonus_5000: white
+    l_Bonus_6000: white
+    l_Bonus_7000: black
+    l_Bonus_8000: black
+    l_Bonus_9000: black
+    l_Bonus_10000: black
+  "{current_player.Adv_Bonus == 7}":
+    l_Bonus_1000: white
+    l_Bonus_2000: white
+    l_Bonus_3000: white
+    l_Bonus_4000: white
+    l_Bonus_5000: white
+    l_Bonus_6000: white
+    l_Bonus_7000: white
+    l_Bonus_8000: black
+    l_Bonus_9000: black
+    l_Bonus_10000: black
+  "{current_player.Adv_Bonus == 8}":
+    l_Bonus_1000: white
+    l_Bonus_2000: white
+    l_Bonus_3000: white
+    l_Bonus_4000: white
+    l_Bonus_5000: white
+    l_Bonus_6000: white
+    l_Bonus_7000: white
+    l_Bonus_8000: white
+    l_Bonus_9000: black
+    l_Bonus_10000: black
+  "{current_player.Adv_Bonus == 9}":
+    l_Bonus_1000: white
+    l_Bonus_2000: white
+    l_Bonus_3000: white
+    l_Bonus_4000: white
+    l_Bonus_5000: white
+    l_Bonus_6000: white
+    l_Bonus_7000: white
+    l_Bonus_8000: white
+    l_Bonus_9000: white
+    l_Bonus_10000: black
+  "{current_player.Adv_Bonus > 9}":
+    l_Bonus_1000: white
+    l_Bonus_2000: white
+    l_Bonus_3000: white
+    l_Bonus_4000: white
+    l_Bonus_5000: white
+    l_Bonus_6000: white
+    l_Bonus_7000: white
+    l_Bonus_8000: white
+    l_Bonus_9000: white
+    l_Bonus_10000: white

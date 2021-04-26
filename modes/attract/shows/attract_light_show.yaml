@@ -1,166 +1,2732 @@
 #show_version=5
-- duration: 2
+- time: 0
   lights:
-    l_Bonus_1000: ff0000
-    l_Bonus_2000: ff0000
-    l_Bonus_3000: ff0000
-    l_Bonus_4000: 00ff00
-    l_Bonus_5000: 00ff00
-    l_Bonus_6000: 00ff00
-    l_Bonus_7000: 0000ff
-    l_Bonus_8000: 0000ff
-    l_Bonus_9000: 0000ff
-- duration: 2
+    l_Bonus_1000: 
+      color: black
+      fade: 50ms
+    l_Bonus_10000: 
+      color: black
+      fade: 50ms
+    l_Bonus_2000: 
+      color: black
+      fade: 50ms
+    l_Bonus_3000: 
+      color: black
+      fade: 50ms
+    l_Bonus_4000: 
+      color: black
+      fade: 50ms
+    l_Bonus_5000: 
+      color: black
+      fade: 50ms
+    l_Bonus_6000: 
+      color: black
+      fade: 50ms
+    l_Bonus_7000: 
+      color: black
+      fade: 50ms
+    l_Bonus_8000: 
+      color: black
+      fade: 50ms
+    l_Bonus_9000: 
+      color: black
+      fade: 50ms
+    l_Rollover_1000: 
+      color: black
+      fade: 50ms
+    l_Rollover_2: 
+      color: black
+      fade: 50ms
+    l_Rollover_5: 
+      color: black
+      fade: 50ms
+    l_Rollover_8: 
+      color: black
+      fade: 50ms
+    l_SPECIAL: 
+      color: black
+      fade: 50ms
+    l_Top_Bumper: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
   lights:
-    l_Bonus_1000: 0000ff
-    l_Bonus_2000: 0000ff
-    l_Bonus_3000: 0000ff
-    l_Bonus_4000: ff0000
-    l_Bonus_5000: ff0000
-    l_Bonus_6000: ff0000
-    l_Bonus_7000: 00ff00
-    l_Bonus_8000: 00ff00
-    l_Bonus_9000: 00ff00
-- duration: 2
+    l_Bonus_1000: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
   lights:
-    l_Bonus_1000: 00ff00
-    l_Bonus_2000: 00ff00
-    l_Bonus_3000: 00ff00
-    l_Bonus_4000: 0000ff
-    l_Bonus_5000: 0000ff
-    l_Bonus_6000: 0000ff
-    l_Bonus_7000: ff0000
-    l_Bonus_8000: ff0000
-    l_Bonus_9000: ff0000
-- duration: 2
+    l_Bonus_2000: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
   lights:
-    l_Bonus_1000: FFFFFF
-    l_Bonus_2000: 000000
-    l_Bonus_3000: 000000
-    l_Bonus_4000: 000000
-    l_Bonus_5000: 000000
-    l_Bonus_6000: 000000
-    l_Bonus_7000: 000000
-    l_Bonus_8000: 000000
-    l_Bonus_9000: 000000
-- duration: 2
+    l_Bonus_3000: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
   lights:
-    l_Bonus_1000: EEEEEE
-    l_Bonus_2000: FFFFFF
-    l_Bonus_3000: 000000
-    l_Bonus_4000: 000000
-    l_Bonus_5000: 000000
-    l_Bonus_6000: 000000
-    l_Bonus_7000: 000000
-    l_Bonus_8000: 000000
-    l_Bonus_9000: 000000
-- duration: 2
+    l_Bonus_1000: 
+      color: black
+      fade: 50ms
+    l_Bonus_4000: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
   lights:
-    l_Bonus_1000: DDDDDD
-    l_Bonus_2000: EEEEEE
-    l_Bonus_3000: FFFFFF
-    l_Bonus_4000: 000000
-    l_Bonus_5000: 000000
-    l_Bonus_6000: 000000
-    l_Bonus_7000: 000000
-    l_Bonus_8000: 000000
-    l_Bonus_9000: 000000
-- duration: 2
+    l_Bonus_2000: 
+      color: black
+      fade: 50ms
+    l_Bonus_5000: 
+      color: white
+      fade: 50ms
+    l_EB: 
+      color: white
+      fade: 50ms
+    l_Slinghshot_Right: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
   lights:
-    l_Bonus_1000: CCCCCC
-    l_Bonus_2000: DDDDDD
-    l_Bonus_3000: EEEEEE
-    l_Bonus_4000: FFFFFF
-    l_Bonus_5000: 000000
-    l_Bonus_6000: 000000
-    l_Bonus_7000: 000000
-    l_Bonus_8000: 000000
-    l_Bonus_9000: 000000
-- duration: 2
+    l_Bonus_3000: 
+      color: black
+      fade: 50ms
+    l_Bonus_6000: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
   lights:
-    l_Bonus_1000: BBBBBB
-    l_Bonus_2000: CCCCCC
-    l_Bonus_3000: DDDDDD
-    l_Bonus_4000: EEEEEE
-    l_Bonus_5000: FFFFFF
-    l_Bonus_6000: 000000
-    l_Bonus_7000: 000000
-    l_Bonus_8000: 000000
-    l_Bonus_9000: 000000
-- duration: 2
+    l_Bonus_4000: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
   lights:
-    l_Bonus_1000: AAAAAA
-    l_Bonus_2000: BBBBBB
-    l_Bonus_3000: CCCCCC
-    l_Bonus_4000: DDDDDD
-    l_Bonus_5000: EEEEEE
-    l_Bonus_6000: FFFFFF
-    l_Bonus_7000: 000000
-    l_Bonus_8000: 000000
-    l_Bonus_9000: 000000
-- duration: 2
+    l_Bonus_7000: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
   lights:
-    l_Bonus_1000: FF0000
-    l_Bonus_2000: AAAAAA
-    l_Bonus_3000: BBBBBB
-    l_Bonus_4000: CCCCCC
-    l_Bonus_5000: DDDDDD
-    l_Bonus_6000: EEEEEE
-    l_Bonus_7000: FFFFFF
-    l_Bonus_8000: 000000
-    l_Bonus_9000: 000000
-- duration: 2
+    l_Bonus_5000: 
+      color: black
+      fade: 50ms
+    l_EB: 
+      color: black
+      fade: 50ms
+    l_Slinghshot_Right: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
   lights:
-    l_Bonus_1000: 00FF00
-    l_Bonus_2000: FF0000
-    l_Bonus_3000: AAAAAA
-    l_Bonus_4000: BBBBBB
-    l_Bonus_5000: CCCCCC
-    l_Bonus_6000: DDDDDD
-    l_Bonus_7000: EEEEEE
-    l_Bonus_8000: FFFFFF
-    l_Bonus_9000: 000000
-- duration: 2
+    l_Bonus_8000: 
+      color: white
+      fade: 50ms
+    l_EB_Lane: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
   lights:
-    l_Bonus_1000: 0000FF
-    l_Bonus_2000: 00FF00
-    l_Bonus_3000: FF0000
-    l_Bonus_4000: AAAAAA
-    l_Bonus_5000: BBBBBB
-    l_Bonus_6000: CCCCCC
-    l_Bonus_7000: DDDDDD
-    l_Bonus_8000: EEEEEE
-    l_Bonus_9000: FFFFFF
-- duration: 2
+    l_Bonus_6000: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
   lights:
-    l_Bonus_1000: FF00FF
-    l_Bonus_2000: FFFF00
-    l_Bonus_3000: 00FFFF
-    l_Bonus_4000: 0000FF
-    l_Bonus_5000: 00FF00
-    l_Bonus_6000: FF0000
-    l_Bonus_7000: DDDDDD
-    l_Bonus_8000: EEEEEE
-    l_Bonus_9000: FFFFFF
-- duration: 2
+    l_Bonus_9000: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
   lights:
-    l_Bonus_1000: AABBCC
-    l_Bonus_2000: DDEEFF
-    l_Bonus_3000: 001122
-    l_Bonus_4000: 334455
-    l_Bonus_5000: 667788
-    l_Bonus_6000: 99AABB
-    l_Bonus_7000: CCDDEE
-    l_Bonus_8000: FF0011
-    l_Bonus_9000: 223344
-- duration: 2
+    l_Bonus_7000: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
   lights:
-    l_Bonus_1000: 556677
-    l_Bonus_2000: 8899AA
-    l_Bonus_3000: BBCCDD
-    l_Bonus_4000: EEFF00
-    l_Bonus_5000: 112233
-    l_Bonus_6000: 445566
-    l_Bonus_7000: 778899
-    l_Bonus_8000: AABB00
-    l_Bonus_9000: DD0055
+    l_Bonus_10000: 
+      color: white
+      fade: 50ms
+    l_Double_Bonus: 
+      color: white
+      fade: 50ms
+    l_Triple_Bonus: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_8000: 
+      color: black
+      fade: 50ms
+    l_EB_Lane: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_9000: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_8: 
+      color: white
+      fade: 50ms
+    l_Target_10: 
+      color: white
+      fade: 50ms
+    l_Triple_Bonus: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_10000: 
+      color: black
+      fade: 50ms
+    l_Double_Bonus: 
+      color: black
+      fade: 50ms
+    l_Rollover_7: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_9: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_5: 
+      color: white
+      fade: 50ms
+    l_Rollover_6: 
+      color: white
+      fade: 50ms
+    l_Target_10: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_4: 
+      color: white
+      fade: 50ms
+    l_Rollover_8: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_7: 
+      color: black
+      fade: 50ms
+    l_Rollover_9: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_2: 
+      color: white
+      fade: 50ms
+    l_Rollover_3: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_1: 
+      color: white
+      fade: 50ms
+    l_Rollover_4: 
+      color: black
+      fade: 50ms
+    l_Rollover_5: 
+      color: black
+      fade: 50ms
+    l_Rollover_6: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_SPECIAL_Lane_2: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_SPECIAL: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_1: 
+      color: black
+      fade: 50ms
+    l_Rollover_2: 
+      color: black
+      fade: 50ms
+    l_Rollover_3: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_SPECIAL_Lane_2: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Left_Bumper: 
+      color: white
+      fade: 50ms
+    l_Right_Bumper: 
+      color: white
+      fade: 50ms
+    l_SPECIAL: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Left_Bumper: 
+      color: black
+      fade: 50ms
+    l_Right_Bumper: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Top_Bumper: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Lane_Top_Right: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Top_Bumper: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Lane_Top_Right: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_1000: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_1000: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_1000: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_1000: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Lane_Top_Right: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Top_Bumper: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Lane_Top_Right: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Top_Bumper: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Left_Bumper: 
+      color: white
+      fade: 50ms
+    l_Right_Bumper: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Left_Bumper: 
+      color: black
+      fade: 50ms
+    l_Right_Bumper: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_SPECIAL: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_SPECIAL_Lane_2: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_1: 
+      color: white
+      fade: 50ms
+    l_SPECIAL: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_2: 
+      color: white
+      fade: 50ms
+    l_Rollover_3: 
+      color: white
+      fade: 50ms
+    l_SPECIAL_Lane_2: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_1: 
+      color: black
+      fade: 50ms
+    l_Rollover_2: 
+      color: black
+      fade: 50ms
+    l_Rollover_3: 
+      color: black
+      fade: 50ms
+    l_Rollover_4: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_5: 
+      color: white
+      fade: 50ms
+    l_Rollover_6: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_9: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_4: 
+      color: black
+      fade: 50ms
+    l_Rollover_5: 
+      color: black
+      fade: 50ms
+    l_Rollover_7: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_6: 
+      color: black
+      fade: 50ms
+    l_Rollover_8: 
+      color: white
+      fade: 50ms
+    l_Target_10: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_9: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_7: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_10000: 
+      color: white
+      fade: 50ms
+    l_Double_Bonus: 
+      color: white
+      fade: 50ms
+    l_Rollover_8: 
+      color: black
+      fade: 50ms
+    l_Target_10: 
+      color: black
+      fade: 50ms
+    l_Triple_Bonus: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Bonus_9000: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Bonus_10000: 
+      color: black
+      fade: 50ms
+    l_Bonus_8000: 
+      color: white
+      fade: 50ms
+    l_Double_Bonus: 
+      color: black
+      fade: 50ms
+    l_EB_Lane: 
+      color: white
+      fade: 50ms
+    l_Triple_Bonus: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Bonus_7000: 
+      color: white
+      fade: 50ms
+    l_Bonus_9000: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Bonus_6000: 
+      color: white
+      fade: 50ms
+    l_Bonus_8000: 
+      color: black
+      fade: 50ms
+    l_EB_Lane: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Bonus_5000: 
+      color: white
+      fade: 50ms
+    l_Bonus_7000: 
+      color: black
+      fade: 50ms
+    l_EB: 
+      color: white
+      fade: 50ms
+    l_Slinghshot_Right: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Bonus_4000: 
+      color: white
+      fade: 50ms
+    l_Bonus_6000: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_3000: 
+      color: white
+      fade: 50ms
+    l_Bonus_5000: 
+      color: black
+      fade: 50ms
+    l_EB: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Slinghshot_Right: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_2000: 
+      color: white
+      fade: 50ms
+    l_Bonus_4000: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Bonus_1000: 
+      color: white
+      fade: 50ms
+    l_Bonus_3000: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Bonus_2000: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_1000: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Bonus_1000: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_2000: 
+      color: white
+      fade: 50ms
+    l_EB: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Bonus_3000: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_1000: 
+      color: black
+      fade: 50ms
+    l_Bonus_4000: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_2000: 
+      color: black
+      fade: 50ms
+    l_EB: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_5000: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_3000: 
+      color: black
+      fade: 50ms
+    l_Bonus_6000: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_4000: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_7000: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_5000: 
+      color: black
+      fade: 50ms
+    l_Bonus_8000: 
+      color: white
+      fade: 50ms
+    l_Double_Bonus: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_6000: 
+      color: black
+      fade: 50ms
+    l_Target_10: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_9000: 
+      color: white
+      fade: 50ms
+    l_Slinghshot_Right: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_10000: 
+      color: white
+      fade: 50ms
+    l_Bonus_7000: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_8000: 
+      color: black
+      fade: 50ms
+    l_Double_Bonus: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_7: 
+      color: white
+      fade: 50ms
+    l_Target_10: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_9000: 
+      color: black
+      fade: 50ms
+    l_Slinghshot_Right: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_10000: 
+      color: black
+      fade: 50ms
+    l_Rollover_8: 
+      color: white
+      fade: 50ms
+    l_Triple_Bonus: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_EB_Lane: 
+      color: white
+      fade: 50ms
+    l_Rollover_4: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_7: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_5: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_1: 
+      color: white
+      fade: 50ms
+    l_Rollover_8: 
+      color: black
+      fade: 50ms
+    l_Rollover_9: 
+      color: white
+      fade: 50ms
+    l_Triple_Bonus: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_EB_Lane: 
+      color: black
+      fade: 50ms
+    l_Rollover_4: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_2: 
+      color: white
+      fade: 50ms
+    l_Rollover_6: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_5: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_1: 
+      color: black
+      fade: 50ms
+    l_Rollover_9: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_3: 
+      color: white
+      fade: 50ms
+    l_SPECIAL: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Left_Bumper: 
+      color: white
+      fade: 50ms
+    l_Rollover_2: 
+      color: black
+      fade: 50ms
+    l_Rollover_6: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_3: 
+      color: black
+      fade: 50ms
+    l_SPECIAL: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Left_Bumper: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Right_Bumper: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_SPECIAL_Lane_2: 
+      color: white
+      fade: 50ms
+    l_Top_Bumper: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Right_Bumper: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_SPECIAL_Lane_2: 
+      color: black
+      fade: 50ms
+    l_Top_Bumper: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Lane_Top_Right: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_1000: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Lane_Top_Right: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_1000: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_1000: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_1000: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Top_Bumper: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Lane_Top_Right: 
+      color: white
+      fade: 50ms
+    l_Left_Bumper: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Top_Bumper: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Lane_Top_Right: 
+      color: black
+      fade: 50ms
+    l_Left_Bumper: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Right_Bumper: 
+      color: white
+      fade: 50ms
+    l_Rollover_1: 
+      color: white
+      fade: 50ms
+    l_SPECIAL: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_2: 
+      color: white
+      fade: 50ms
+    l_Rollover_4: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Right_Bumper: 
+      color: black
+      fade: 50ms
+    l_Rollover_1: 
+      color: black
+      fade: 50ms
+    l_SPECIAL: 
+      color: black
+      fade: 50ms
+    l_Target_10: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_3: 
+      color: white
+      fade: 50ms
+    l_Rollover_5: 
+      color: white
+      fade: 50ms
+    l_Rollover_7: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_2: 
+      color: black
+      fade: 50ms
+    l_Rollover_4: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Target_10: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Double_Bonus: 
+      color: white
+      fade: 50ms
+    l_Rollover_6: 
+      color: white
+      fade: 50ms
+    l_Rollover_7: 
+      color: black
+      fade: 50ms
+    l_Rollover_8: 
+      color: white
+      fade: 50ms
+    l_SPECIAL_Lane_2: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_3: 
+      color: black
+      fade: 50ms
+    l_Rollover_5: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_9: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_10000: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Double_Bonus: 
+      color: black
+      fade: 50ms
+    l_Rollover_6: 
+      color: black
+      fade: 50ms
+    l_Rollover_8: 
+      color: black
+      fade: 50ms
+    l_SPECIAL_Lane_2: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_9000: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_EB: 
+      color: white
+      fade: 50ms
+    l_Rollover_9: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_10000: 
+      color: black
+      fade: 50ms
+    l_Bonus_8000: 
+      color: white
+      fade: 50ms
+    l_Triple_Bonus: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_7000: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_6000: 
+      color: white
+      fade: 50ms
+    l_Bonus_9000: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_EB: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_5000: 
+      color: white
+      fade: 50ms
+    l_Bonus_8000: 
+      color: black
+      fade: 50ms
+    l_Triple_Bonus: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_4000: 
+      color: white
+      fade: 50ms
+    l_Bonus_7000: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_3000: 
+      color: white
+      fade: 50ms
+    l_Bonus_6000: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_5000: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_2000: 
+      color: white
+      fade: 50ms
+    l_EB_Lane: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_1000: 
+      color: white
+      fade: 50ms
+    l_Bonus_4000: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_3000: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_2000: 
+      color: black
+      fade: 50ms
+    l_Slinghshot_Right: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_EB_Lane: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_1000: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Slinghshot_Right: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Bonus_10000: 
+      color: white
+      fade: 50ms
+    l_Lane_Top_Right: 
+      color: white
+      fade: 50ms
+    l_Right_Bumper: 
+      color: white
+      fade: 50ms
+    l_Rollover_2: 
+      color: white
+      fade: 50ms
+    l_Rollover_5: 
+      color: white
+      fade: 50ms
+    l_Rollover_8: 
+      color: white
+      fade: 50ms
+    l_SPECIAL: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_10000: 
+      color: black
+      fade: 50ms
+    l_Double_Bonus: 
+      color: white
+      fade: 50ms
+    l_EB: 
+      color: white
+      fade: 50ms
+    l_Lane_Top_Right: 
+      color: black
+      fade: 50ms
+    l_SPECIAL: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_EB: 
+      color: black
+      fade: 50ms
+    l_Right_Bumper: 
+      color: black
+      fade: 50ms
+    l_Rollover_2: 
+      color: black
+      fade: 50ms
+    l_Rollover_3: 
+      color: white
+      fade: 50ms
+    l_Rollover_7: 
+      color: white
+      fade: 50ms
+    l_Rollover_8: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Double_Bonus: 
+      color: black
+      fade: 50ms
+    l_Target_10: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_SPECIAL_Lane_2: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_3: 
+      color: black
+      fade: 50ms
+    l_Rollover_4: 
+      color: white
+      fade: 50ms
+    l_Rollover_7: 
+      color: black
+      fade: 50ms
+    l_SPECIAL_Lane_2: 
+      color: black
+      fade: 50ms
+    l_Target_10: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_6: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_1: 
+      color: white
+      fade: 50ms
+    l_Rollover_4: 
+      color: black
+      fade: 50ms
+    l_Rollover_9: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_EB_Lane: 
+      color: white
+      fade: 50ms
+    l_Rollover_6: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_EB_Lane: 
+      color: black
+      fade: 50ms
+    l_Left_Bumper: 
+      color: white
+      fade: 50ms
+    l_Rollover_2: 
+      color: white
+      fade: 50ms
+    l_Slinghshot_Right: 
+      color: white
+      fade: 50ms
+    l_Triple_Bonus: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_1: 
+      color: black
+      fade: 50ms
+    l_Rollover_8: 
+      color: white
+      fade: 50ms
+    l_Rollover_9: 
+      color: black
+      fade: 50ms
+    l_Slinghshot_Right: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_10000: 
+      color: white
+      fade: 50ms
+    l_Bonus_5000: 
+      color: white
+      fade: 50ms
+    l_Bonus_6000: 
+      color: white
+      fade: 50ms
+    l_Bonus_7000: 
+      color: white
+      fade: 50ms
+    l_Bonus_8000: 
+      color: white
+      fade: 50ms
+    l_Bonus_9000: 
+      color: white
+      fade: 50ms
+    l_Left_Bumper: 
+      color: black
+      fade: 50ms
+    l_Rollover_1000: 
+      color: white
+      fade: 50ms
+    l_SPECIAL: 
+      color: white
+      fade: 50ms
+    l_Top_Bumper: 
+      color: white
+      fade: 50ms
+    l_Triple_Bonus: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_5000: 
+      color: black
+      fade: 50ms
+    l_Bonus_6000: 
+      color: black
+      fade: 50ms
+    l_Rollover_1000: 
+      color: black
+      fade: 50ms
+    l_Top_Bumper: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_10000: 
+      color: black
+      fade: 50ms
+    l_Bonus_7000: 
+      color: black
+      fade: 50ms
+    l_Bonus_8000: 
+      color: black
+      fade: 50ms
+    l_Bonus_9000: 
+      color: black
+      fade: 50ms
+    l_Double_Bonus: 
+      color: white
+      fade: 50ms
+    l_EB: 
+      color: white
+      fade: 50ms
+    l_Lane_Top_Right: 
+      color: white
+      fade: 50ms
+    l_Right_Bumper: 
+      color: white
+      fade: 50ms
+    l_SPECIAL: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_EB: 
+      color: black
+      fade: 50ms
+    l_Lane_Top_Right: 
+      color: black
+      fade: 50ms
+    l_Right_Bumper: 
+      color: black
+      fade: 50ms
+    l_Rollover_2: 
+      color: black
+      fade: 50ms
+    l_Rollover_3: 
+      color: white
+      fade: 50ms
+    l_Rollover_7: 
+      color: white
+      fade: 50ms
+    l_Rollover_8: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Double_Bonus: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_SPECIAL_Lane_2: 
+      color: white
+      fade: 50ms
+    l_Target_10: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_3: 
+      color: black
+      fade: 50ms
+    l_Rollover_4: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_6: 
+      color: white
+      fade: 50ms
+    l_Rollover_7: 
+      color: black
+      fade: 50ms
+    l_SPECIAL_Lane_2: 
+      color: black
+      fade: 50ms
+    l_Target_10: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_9: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_1: 
+      color: white
+      fade: 50ms
+    l_Rollover_4: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_EB_Lane: 
+      color: white
+      fade: 50ms
+    l_Rollover_6: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_EB_Lane: 
+      color: black
+      fade: 50ms
+    l_Rollover_2: 
+      color: white
+      fade: 50ms
+    l_Triple_Bonus: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Left_Bumper: 
+      color: white
+      fade: 50ms
+    l_Rollover_1: 
+      color: black
+      fade: 50ms
+    l_Rollover_8: 
+      color: white
+      fade: 50ms
+    l_Rollover_9: 
+      color: black
+      fade: 50ms
+    l_Slinghshot_Right: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_10000: 
+      color: white
+      fade: 50ms
+    l_Bonus_9000: 
+      color: white
+      fade: 50ms
+    l_Left_Bumper: 
+      color: black
+      fade: 50ms
+    l_SPECIAL: 
+      color: white
+      fade: 50ms
+    l_Slinghshot_Right: 
+      color: black
+      fade: 50ms
+    l_Triple_Bonus: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_1000: 
+      color: white
+      fade: 50ms
+    l_Bonus_2000: 
+      color: white
+      fade: 50ms
+    l_Bonus_3000: 
+      color: white
+      fade: 50ms
+    l_Bonus_4000: 
+      color: white
+      fade: 50ms
+    l_Bonus_5000: 
+      color: white
+      fade: 50ms
+    l_Bonus_6000: 
+      color: white
+      fade: 50ms
+    l_Bonus_7000: 
+      color: white
+      fade: 50ms
+    l_Bonus_8000: 
+      color: white
+      fade: 50ms
+    l_Rollover_1000: 
+      color: white
+      fade: 50ms
+    l_Top_Bumper: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_1000: 
+      color: black
+      fade: 50ms
+    l_Bonus_10000: 
+      color: black
+      fade: 50ms
+    l_Bonus_2000: 
+      color: black
+      fade: 50ms
+    l_Bonus_3000: 
+      color: black
+      fade: 50ms
+    l_Bonus_4000: 
+      color: black
+      fade: 50ms
+    l_Bonus_5000: 
+      color: black
+      fade: 50ms
+    l_Bonus_6000: 
+      color: black
+      fade: 50ms
+    l_Bonus_7000: 
+      color: black
+      fade: 50ms
+    l_Bonus_8000: 
+      color: black
+      fade: 50ms
+    l_Bonus_9000: 
+      color: black
+      fade: 50ms
+    l_EB: 
+      color: white
+      fade: 50ms
+    l_Lane_Top_Right: 
+      color: white
+      fade: 50ms
+    l_Right_Bumper: 
+      color: white
+      fade: 50ms
+    l_Rollover_1000: 
+      color: black
+      fade: 50ms
+    l_Top_Bumper: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Double_Bonus: 
+      color: white
+      fade: 50ms
+    l_EB: 
+      color: black
+      fade: 50ms
+    l_Lane_Top_Right: 
+      color: black
+      fade: 50ms
+    l_Rollover_2: 
+      color: black
+      fade: 50ms
+    l_Rollover_3: 
+      color: white
+      fade: 50ms
+    l_SPECIAL: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Right_Bumper: 
+      color: black
+      fade: 50ms
+    l_Rollover_7: 
+      color: white
+      fade: 50ms
+    l_Rollover_8: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Double_Bonus: 
+      color: black
+      fade: 50ms
+    l_Target_10: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_SPECIAL_Lane_2: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_3: 
+      color: black
+      fade: 50ms
+    l_Rollover_4: 
+      color: white
+      fade: 50ms
+    l_Rollover_6: 
+      color: white
+      fade: 50ms
+    l_SPECIAL_Lane_2: 
+      color: black
+      fade: 50ms
+    l_Target_10: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_7: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_9: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_1: 
+      color: white
+      fade: 50ms
+    l_Rollover_4: 
+      color: black
+      fade: 50ms
+    l_Rollover_6: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_EB_Lane: 
+      color: white
+      fade: 50ms
+    l_Triple_Bonus: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_EB_Lane: 
+      color: black
+      fade: 50ms
+    l_Rollover_2: 
+      color: white
+      fade: 50ms
+    l_Rollover_8: 
+      color: white
+      fade: 50ms
+    l_Rollover_9: 
+      color: black
+      fade: 50ms
+    l_Slinghshot_Right: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Left_Bumper: 
+      color: white
+      fade: 50ms
+    l_Rollover_1: 
+      color: black
+      fade: 50ms
+    l_Slinghshot_Right: 
+      color: black
+      fade: 50ms
+    l_Triple_Bonus: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_1000: 
+      color: white
+      fade: 50ms
+    l_Bonus_10000: 
+      color: white
+      fade: 50ms
+    l_Bonus_2000: 
+      color: white
+      fade: 50ms
+    l_Bonus_3000: 
+      color: white
+      fade: 50ms
+    l_Bonus_4000: 
+      color: white
+      fade: 50ms
+    l_Bonus_5000: 
+      color: white
+      fade: 50ms
+    l_Bonus_6000: 
+      color: white
+      fade: 50ms
+    l_Bonus_7000: 
+      color: white
+      fade: 50ms
+    l_Bonus_8000: 
+      color: white
+      fade: 50ms
+    l_Bonus_9000: 
+      color: white
+      fade: 50ms
+    l_Left_Bumper: 
+      color: black
+      fade: 50ms
+    l_Rollover_1000: 
+      color: white
+      fade: 50ms
+    l_SPECIAL: 
+      color: white
+      fade: 50ms
+    l_Top_Bumper: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_1000: 
+      color: black
+      fade: 50ms
+    l_Bonus_2000: 
+      color: black
+      fade: 50ms
+    l_Bonus_3000: 
+      color: black
+      fade: 50ms
+    l_Bonus_4000: 
+      color: black
+      fade: 50ms
+    l_Bonus_5000: 
+      color: black
+      fade: 50ms
+    l_Bonus_6000: 
+      color: black
+      fade: 50ms
+    l_Bonus_7000: 
+      color: black
+      fade: 50ms
+    l_Bonus_8000: 
+      color: black
+      fade: 50ms
+    l_Rollover_1000: 
+      color: black
+      fade: 50ms
+    l_Top_Bumper: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_10000: 
+      color: black
+      fade: 50ms
+    l_Bonus_9000: 
+      color: black
+      fade: 50ms
+    l_Double_Bonus: 
+      color: white
+      fade: 50ms
+    l_EB: 
+      color: white
+      fade: 50ms
+    l_Right_Bumper: 
+      color: white
+      fade: 50ms
+    l_SPECIAL: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_EB: 
+      color: black
+      fade: 50ms
+    l_Right_Bumper: 
+      color: black
+      fade: 50ms
+    l_Rollover_2: 
+      color: black
+      fade: 50ms
+    l_Rollover_3: 
+      color: white
+      fade: 50ms
+    l_Rollover_7: 
+      color: white
+      fade: 50ms
+    l_Rollover_8: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Double_Bonus: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_SPECIAL_Lane_2: 
+      color: white
+      fade: 50ms
+    l_Target_10: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_3: 
+      color: black
+      fade: 50ms
+    l_Rollover_6: 
+      color: white
+      fade: 50ms
+    l_SPECIAL_Lane_2: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_4: 
+      color: white
+      fade: 50ms
+    l_Rollover_7: 
+      color: black
+      fade: 50ms
+    l_Target_10: 
+      color: black
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_9: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_1: 
+      color: white
+      fade: 50ms
+    l_Rollover_6: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_EB_Lane: 
+      color: white
+      fade: 50ms
+    l_Rollover_4: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_EB_Lane: 
+      color: black
+      fade: 50ms
+    l_Rollover_9: 
+      color: black
+      fade: 50ms
+    l_Slinghshot_Right: 
+      color: white
+      fade: 50ms
+    l_Triple_Bonus: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Left_Bumper: 
+      color: white
+      fade: 50ms
+    l_Rollover_1: 
+      color: black
+      fade: 50ms
+    l_Rollover_2: 
+      color: white
+      fade: 50ms
+    l_Rollover_8: 
+      color: white
+      fade: 50ms
+    l_Slinghshot_Right: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_10000: 
+      color: white
+      fade: 50ms
+    l_Bonus_6000: 
+      color: white
+      fade: 50ms
+    l_Bonus_7000: 
+      color: white
+      fade: 50ms
+    l_Bonus_8000: 
+      color: white
+      fade: 50ms
+    l_Bonus_9000: 
+      color: white
+      fade: 50ms
+    l_Left_Bumper: 
+      color: black
+      fade: 50ms
+    l_SPECIAL: 
+      color: white
+      fade: 50ms
+    l_Triple_Bonus: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_2000: 
+      color: white
+      fade: 50ms
+    l_Bonus_3000: 
+      color: white
+      fade: 50ms
+    l_Bonus_4000: 
+      color: white
+      fade: 50ms
+    l_Bonus_5000: 
+      color: white
+      fade: 50ms
+    l_Top_Bumper: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_10000: 
+      color: black
+      fade: 50ms
+    l_Bonus_2000: 
+      color: black
+      fade: 50ms
+    l_Bonus_3000: 
+      color: black
+      fade: 50ms
+    l_Bonus_4000: 
+      color: black
+      fade: 50ms
+    l_Bonus_5000: 
+      color: black
+      fade: 50ms
+    l_Bonus_6000: 
+      color: black
+      fade: 50ms
+    l_Bonus_7000: 
+      color: black
+      fade: 50ms
+    l_Bonus_8000: 
+      color: black
+      fade: 50ms
+    l_Bonus_9000: 
+      color: black
+      fade: 50ms
+    l_EB: 
+      color: white
+      fade: 50ms
+    l_Lane_Top_Right: 
+      color: white
+      fade: 50ms
+    l_Right_Bumper: 
+      color: white
+      fade: 50ms
+    l_SPECIAL: 
+      color: black
+      fade: 50ms
+    l_Top_Bumper: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Double_Bonus: 
+      color: white
+      fade: 50ms
+    l_EB: 
+      color: black
+      fade: 50ms
+    l_Lane_Top_Right: 
+      color: black
+      fade: 50ms
+    l_Right_Bumper: 
+      color: black
+      fade: 50ms
+    l_Rollover_2: 
+      color: black
+      fade: 50ms
+    l_Rollover_3: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_7: 
+      color: white
+      fade: 50ms
+    l_Rollover_8: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Double_Bonus: 
+      color: black
+      fade: 50ms
+    l_SPECIAL_Lane_2: 
+      color: white
+      fade: 50ms
+    l_Target_10: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_3: 
+      color: black
+      fade: 50ms
+    l_Rollover_6: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_SPECIAL_Lane_2: 
+      color: black
+      fade: 50ms
+    l_Target_10: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_4: 
+      color: white
+      fade: 50ms
+    l_Rollover_7: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Rollover_9: 
+      color: white
+      fade: 50ms
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_Rollover_6: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_EB_Lane: 
+      color: white
+      fade: 50ms
+    l_Rollover_1: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_EB_Lane: 
+      color: black
+      fade: 50ms
+    l_Rollover_4: 
+      color: black
+      fade: 50ms
+    l_Rollover_9: 
+      color: black
+      fade: 50ms
+    l_Triple_Bonus: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Left_Bumper: 
+      color: white
+      fade: 50ms
+    l_Rollover_8: 
+      color: white
+      fade: 50ms
+    l_Slinghshot_Right: 
+      color: white
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_10000: 
+      color: white
+      fade: 50ms
+    l_Rollover_1: 
+      color: black
+      fade: 50ms
+    l_Rollover_2: 
+      color: white
+      fade: 50ms
+    l_Slinghshot_Right: 
+      color: black
+      fade: 50ms
+    l_Triple_Bonus: 
+      color: black
+      fade: 50ms
+    
+- time: '+1'
+  lights:
+    l_Bonus_1000: 
+      color: white
+      fade: 50ms
+    l_Bonus_2000: 
+      color: white
+      fade: 50ms
+    l_Bonus_3000: 
+      color: white
+      fade: 50ms
+    l_Bonus_4000: 
+      color: white
+      fade: 50ms
+    l_Bonus_5000: 
+      color: white
+      fade: 50ms
+    l_Bonus_6000: 
+      color: white
+      fade: 50ms
+    l_Bonus_7000: 
+      color: white
+      fade: 50ms
+    l_Bonus_8000: 
+      color: white
+      fade: 50ms
+    l_Bonus_9000: 
+      color: white
+      fade: 50ms
+    l_Left_Bumper: 
+      color: black
+      fade: 50ms
+    l_Rollover_1000: 
+      color: white
+      fade: 50ms
+    l_SPECIAL: 
+      color: white
+      fade: 50ms
+    l_Top_Bumper: 
+      color: white
+      fade: 50ms
+    
