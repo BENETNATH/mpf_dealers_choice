@@ -1,5 +1,7 @@
 #config_version=5
 
+
+    
 mode_settings:
   display_delay_ms: 1s
   hurry_up_delay_ms: 0

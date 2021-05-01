@@ -100,7 +100,7 @@
     l_EB: 
       color: white
       fade: 50ms
-    l_Slinghshot_Right: 
+    l_Slingshot_Right: 
       color: white
       fade: 50ms
     
@@ -137,7 +137,7 @@
     l_EB: 
       color: black
       fade: 50ms
-    l_Slinghshot_Right: 
+    l_Slingshot_Right: 
       color: black
       fade: 50ms
     
@@ -753,7 +753,7 @@
     l_EB: 
       color: white
       fade: 50ms
-    l_Slinghshot_Right: 
+    l_Slingshot_Right: 
       color: white
       fade: 50ms
     
@@ -784,7 +784,7 @@
     
 - time: '+1'
   lights:
-    l_Slinghshot_Right: 
+    l_Slingshot_Right: 
       color: black
       fade: 50ms
     
@@ -970,7 +970,7 @@
     l_Bonus_9000: 
       color: white
       fade: 50ms
-    l_Slinghshot_Right: 
+    l_Slingshot_Right: 
       color: white
       fade: 50ms
     
@@ -1006,7 +1006,7 @@
     l_Bonus_9000: 
       color: black
       fade: 50ms
-    l_Slinghshot_Right: 
+    l_Slingshot_Right: 
       color: black
       fade: 50ms
     
@@ -1569,7 +1569,7 @@
     l_Bonus_2000: 
       color: black
       fade: 50ms
-    l_Slinghshot_Right: 
+    l_Slingshot_Right: 
       color: white
       fade: 50ms
     
@@ -1587,7 +1587,7 @@
     
 - time: '+1'
   lights:
-    l_Slinghshot_Right: 
+    l_Slingshot_Right: 
       color: black
       fade: 50ms
     
@@ -1765,7 +1765,7 @@
     l_Rollover_2: 
       color: white
       fade: 50ms
-    l_Slinghshot_Right: 
+    l_Slingshot_Right: 
       color: white
       fade: 50ms
     l_Triple_Bonus: 
@@ -1783,7 +1783,7 @@
     l_Rollover_9: 
       color: black
       fade: 50ms
-    l_Slinghshot_Right: 
+    l_Slingshot_Right: 
       color: black
       fade: 50ms
     
@@ -1989,7 +1989,7 @@
     l_Rollover_9: 
       color: black
       fade: 50ms
-    l_Slinghshot_Right: 
+    l_Slingshot_Right: 
       color: white
       fade: 50ms
     
@@ -2007,7 +2007,7 @@
     l_SPECIAL: 
       color: white
       fade: 50ms
-    l_Slinghshot_Right: 
+    l_Slingshot_Right: 
       color: black
       fade: 50ms
     l_Triple_Bonus: 
@@ -2216,7 +2216,7 @@
     l_Rollover_9: 
       color: black
       fade: 50ms
-    l_Slinghshot_Right: 
+    l_Slingshot_Right: 
       color: white
       fade: 50ms
     
@@ -2228,7 +2228,7 @@
     l_Rollover_1: 
       color: black
       fade: 50ms
-    l_Slinghshot_Right: 
+    l_Slingshot_Right: 
       color: black
       fade: 50ms
     l_Triple_Bonus: 
@@ -2434,7 +2434,7 @@
     l_Rollover_9: 
       color: black
       fade: 50ms
-    l_Slinghshot_Right: 
+    l_Slingshot_Right: 
       color: white
       fade: 50ms
     l_Triple_Bonus: 
@@ -2455,7 +2455,7 @@
     l_Rollover_8: 
       color: white
       fade: 50ms
-    l_Slinghshot_Right: 
+    l_Slingshot_Right: 
       color: black
       fade: 50ms
     
@@ -2666,7 +2666,7 @@
     l_Rollover_8: 
       color: white
       fade: 50ms
-    l_Slinghshot_Right: 
+    l_Slingshot_Right: 
       color: white
       fade: 50ms
     
@@ -2681,7 +2681,7 @@
     l_Rollover_2: 
       color: white
       fade: 50ms
-    l_Slinghshot_Right: 
+    l_Slingshot_Right: 
       color: black
       fade: 50ms
     l_Triple_Bonus: 

@@ -1,0 +1,72 @@
+#config_version=5
+
+mode:
+    start_events: mode_base_started{machine.rules==2}
+    
+slide_player:
+  mode_modern_started:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+      - type: text
+        text: MODERN (number)
+        y: 10
+        x: 10
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball)
+        y: 10
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50
+        
+
+variable_player:
+    ball_started:
+        Adv_Bonus:
+          int: 1
+          action: set
+    Rollover_Nine_hit:
+        score: 100
+    Advance_Bonus_hit{current_player.Adv_Bonus<10}:
+        Adv_Bonus: 1
+    Advance_Bonus_hit:
+        score: 150
+    shot_Rollover_1000_hit:
+        score: 1000
+    Bumpers_hit:
+        score: 100
+    shot_Target_1000_hit:
+        score: 1000
+    Lanes_hit:
+        score: 1000
+    Top_Lanes_hit{current_player.Adv_Bonus<10}:
+        Adv_Bonus: 1
+    Top_Lanes_hit:
+        score: 100
+    Slingshots_hit:
+        score: 10
+        
+ 
+shows:
+   shot_unlit_hit_2:
+    - duration: 100ms      # this show step lasts 1s
+      lights:
+       (leds): black 
+    - duration: -1      # this show step lasts 1s
+      lights:
+       (leds): white
+   shot_lit_hit_2:
+    - duration: 100ms      # this show step lasts 1s
+      lights:
+       (leds): black 
+    - duration: -1      # this show step lasts 1s
+      lights:
+       (leds): white     
+

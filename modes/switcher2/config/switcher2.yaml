@@ -1,0 +1,13 @@
+#config_version=5
+
+mode:
+  start_events: time_to_change{machine.rules==1}
+  stop_events: ball_starting, mode_switcher_started
+  game_mode: False
+  priority: 200
+
+variable_player:
+  mode_switcher2_started:
+    rules:
+      int: 2
+      action: set_machine

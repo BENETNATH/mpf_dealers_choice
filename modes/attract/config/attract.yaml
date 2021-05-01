@@ -6,3 +6,9 @@ show_player:
     speed: 1
    attract_light_show:
     speed: 25
+
+# variable_player:
+  # mode_attract_started:
+    # rules:
+      # int: 1
+      # action: set_machine

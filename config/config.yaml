@@ -32,23 +32,28 @@ modes:
     - double_bonus
     - target_cards
     - tilt
-    
-# slides:
-  # welcome_slide:
-    # widgets:
-      # - type: text
-        # text: PINBALL!
-        # font_size: 50
-        # color: red
-      # - type: rectangle
-        # width: 240
-        # height: 60
-# slide_player:
-   # init_done: welcome_slide
+    - switcher
+    - switcher2
+    - modern
+    - classic
 
-# keyboard:
-    # z:
-        # switch: s_Start_Button
+machine_vars:
+  rules:
+    initial_value: 1
+    value_type: int
+    
+combo_switches:
+  custom_events:
+    switches_1: s_Flipper_Left_Bottom
+    switches_2: s_Start_button
+    hold_time: 5s
+    events_when_both: time_to_change
+
+timed_switches:
+  game_cancel:
+    switch_tags: start
+    time: 5s
+    events_when_active: end_game
 
 switches:
  s_Target_J:
@@ -300,6 +305,8 @@ flippers:
  Flipper_Right_Top:
   main_coil: c_Flipper_Right_Top
   activation_switch: s_Flipper_Right_Top
+
+
   
 score_reels:
   score_1p_10k:
@@ -436,7 +443,7 @@ lights:
  l_Rollover_8:
   number: 6-0-18
   subtype: matrix
- l_Slinghshot_Right:
+ l_Slingshot_Right:
   number: 6-0-19
   subtype: matrix
  l_SPECIAL_Lane_2:

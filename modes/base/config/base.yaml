@@ -2,60 +2,13 @@
 mode:
     start_events: ball_starting
     priority: 100
-    
-slide_player:
-  mode_base_started:
-    widgets:
-      - type: text
-        text: (score)
-        number_grouping: true
-        min_digits: 2
-        font_size: 100
-      - type: text
-        text: JOUEUR (number)
-        y: 10
-        x: 10
-        font_size: 50
-        anchor_x: left
-        anchor_y: bottom
-      - type: text
-        text: BALL (ball)
-        y: 10
-        x: right-10
-        anchor_x: right
-        anchor_y: bottom
-        font_size: 50
-        
 
-variable_player:
-    ball_started:
-        Adv_Bonus:
-          int: 1
-          action: set
-    Rollover_Nine_hit:
-        score: 100
-    Advance_Bonus_hit{current_player.Adv_Bonus<10}:
-        Adv_Bonus: 1
-    Advance_Bonus_hit:
-        score: 150
-    shot_Rollover_1000_hit:
-        score: 1000
-    Bumpers_hit:
-        score: 100
-    shot_Target_1000_hit:
-        score: 1000
-    Lanes_hit:
-        score: 1000
-    Top_Lanes_hit{current_player.Adv_Bonus<10}:
-        Adv_Bonus: 1
-    Top_Lanes_hit:
-        score: 100
-        
+
 coil_player:
     Rollover_Nine_hit: c_Chime_2
     Advance_Bonus_hit: c_Chime_3
     Bumpers_hit: c_Chime_3
-        
+    
 shots:
   shot_Target_1000:
     switch: s_Target_1000
@@ -121,17 +74,17 @@ shots:
       leds: l_Rollover_1000
   shot_Left_Bumper:
     switch: s_Left_Bumper
-    profile: Always_on
+    profile: Blink_when_hit
     show_tokens:
       leds: l_Left_Bumper
   shot_Right_Bumper:
     switch: s_Right_Bumper
-    profile: Always_on
+    profile: Blink_when_hit
     show_tokens:
       leds: l_Right_Bumper
   shot_Top_Bumper:
     switch: s_Top_Bumper
-    profile: Always_on
+    profile: Blink_when_hit
     show_tokens:
       leds: l_Top_Bumper
   shot_Inlane_Bottom:
@@ -141,30 +94,14 @@ shots:
     switch: s_Outlane_Right
   shot_Outlane_Left:
     switch: s_Outlane_Left
-
-shot_groups:
-  Rollover_Nine:
-    shots: shot_Rollover_1, shot_Rollover_2, shot_Rollover_3, shot_Rollover_4, shot_Rollover_5, shot_Rollover_6, shot_Rollover_7, shot_Rollover_8, shot_Rollover_9
-    enable_events: ball_started
-    reset_events: ball_ending, Rollover_Nine_complete
-  Advance_Bonus:
-    shots: shot_Target_Adv_Bonus_Left_Bottom, shot_Target_Adv_Bonus_Right_Top, shot_Target_Adv_Bonus_Left_Top
-    enable_events: ball_started
-    disable_events: ball_ending
-  Bumpers:
-    shots: shot_Left_Bumper, shot_Right_Bumper, shot_Top_Bumper
-    enable_events: ball_started
-    disable_events: ball_ending
-  Lanes:
-    shots: shot_Outlane_Left, shot_Outlane_Right, shot_Inlane_Bottom, shot_SPECIAL
-    enable_events: ball_started
-    disable_events: ball_ending
-  Top_Lanes:
-    shots: shot_Lane_Top_Left, shot_Lane_Top_Right
-    enable_events: ball_started
-    disable_events: ball_ending    
-
-  
+  shot_Slingshot_Left:
+    switch: s_Slingshot_Left
+  shot_Slingshot_Right:
+    switch: s_Slingshot_Right
+    profile: Blink_when_hit
+    show_tokens:
+      leds: l_Slingshot_Right
+      
 shot_profiles:
   Rollover_Nine:
       states:
@@ -176,5 +113,10 @@ shot_profiles:
      states:
      - name: unlit
        show: on
-       
-       
+  Blink_when_hit:
+     states:
+     - name: ready
+       show: "shot_unlit_hit"
+     - name: hit
+       show: "shot_lit_hit"
+     loop: true
