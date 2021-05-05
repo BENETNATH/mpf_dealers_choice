@@ -22,7 +22,9 @@ ball_devices:
         ball_switches: s_Drain
         eject_coil: c_Drain
         tags: drain, home, trough
-        
+
+
+  
 modes:
     - base  
     - attract
@@ -36,18 +38,17 @@ modes:
     - switcher2
     - modern
     - classic
+    - shutdown_computer
 
 machine_vars:
   rules:
     initial_value: 1
     value_type: int
-    
-combo_switches:
-  custom_events:
-    switches_1: s_Flipper_Left_Bottom
-    switches_2: s_Start_button
-    hold_time: 5s
-    events_when_both: time_to_change
+
+game:
+  balls_per_game: 3 if machine.rules==1 else 999
+
+
 
 timed_switches:
   game_cancel:
@@ -412,6 +413,9 @@ score_reel_groups:
     #chimes: c_Knocker, c_Chime_1, c_Chime_2, c_Chime_3, None
     #lights_tag: player4
 
+light_settings:
+  default_fade_ms: 40
+  
 lights:
  l_TEMP:
   number: 6-0-9

@@ -1,0 +1,14 @@
+#config_version=5
+  mode:
+    start_events: mode_attract_started
+    stop_events: shutdown_mode_cancel
+    priority: 400
+    game_mode: False
+    code: shutdown_computer.shutdown_computer
+
+  combo_switches:
+    shutdown_hold:
+      switches_1: s_Flipper_Right_Bottom
+      switches_2: s_Start_button
+      hold_time: 5s
+      events_when_both: shutdown_host_computer

@@ -1,9 +1,12 @@
 #config_version=5
 
-
+mode:
+    start_events: ball_ending{machine.rules==1}
+    stop_events: stop_bonus
+    events_when_stopped: start_attract{machine.rules==1}
     
 mode_settings:
-  display_delay_ms: 1s
+  display_delay_ms: 100ms
   hurry_up_delay_ms: 0
   bonus_entries:
     - event: Adv_Bonus

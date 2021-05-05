@@ -1,14 +1,22 @@
 #config_version=5
-
+mode:
+    reset_event: 
+    
 show_player:
-  mode_attract_started: 
+  '{machine.rules==1}': 
    attract_display_loop:
     speed: 1
    attract_light_show:
     speed: 25
+  '{machine.rules==2}': 
+   attract-modern_display_loop:
+    speed: 1
+   attract-modern_light_show:
+    speed: 25
 
-# variable_player:
-  # mode_attract_started:
-    # rules:
-      # int: 1
-      # action: set_machine
+combo_switches:
+  custom_events:
+    switches_1: s_Flipper_Left_Bottom
+    switches_2: s_Flipper_Right_Bottom
+    hold_time: 5s
+    events_when_both: time_to_change

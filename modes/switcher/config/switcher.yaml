@@ -12,4 +12,19 @@ variable_player:
       int: 1
       action: set_machine
 
+coil_player:
+  mode_switcher_started:
+    c_Knocker:
+      action: pulse
+      pulse_power: 1.0
+    c_Chime_3:
+      action: pulse
+      pulse_power: 1.0
+    c_Chime_2:
+      action: pulse
+      pulse_power: 1.0
+    c_Chime_1:
+      action: pulse
+      pulse_power: 1.0
+
 
