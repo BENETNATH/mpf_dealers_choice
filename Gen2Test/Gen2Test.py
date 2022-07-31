@@ -56,7 +56,7 @@ import re
 import rs232Intf
 import os
 
-port = 'COM3'
+port = 'COM1'
 testNum = 255
 card = 0
 data = ""

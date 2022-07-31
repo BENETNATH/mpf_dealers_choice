@@ -46,7 +46,7 @@
 #
 #===============================================================================
 
-testVers = '00.00.01'
+testVers = '00.00.02'
 
 import sys
 import serial
@@ -81,6 +81,27 @@ def calcCrc8(msgChars):
         crc8Byte = CRC8ByteLookup[crc8Byte ^ indInt];
     return (chr(crc8Byte))
 
+#Send Neopixel fade cmd
+def sendFadeCmd(ser, offset, fade, msgBytes):
+    CARD_ADDR = 0x20
+    NEO_FADE_CMD = 0x40
+
+    cmdArr = []
+    cmdArr.append(chr(CARD_ADDR))
+    cmdArr.append(chr(NEO_FADE_CMD))
+    cmdArr.append(chr((offset >> 8) & 0xff))
+    cmdArr.append(chr(offset & 0xff))
+    dataLen = len(msgBytes)
+    cmdArr.append(chr((dataLen >> 8) & 0xff))
+    cmdArr.append(chr(dataLen & 0xff))
+    cmdArr.append(chr((fade >> 8) & 0xff))
+    cmdArr.append(chr(fade & 0xff))
+    for indByte in msgBytes:
+        cmdArr.append(chr(int(indByte, 16)))
+    cmdArr.append(calcCrc8(cmdArr))
+    sendCmd = ''.join(cmdArr)
+    ser.write(sendCmd)
+
 ## Main
 #
 #  Read passed in arguments.
@@ -91,6 +112,10 @@ def main(argv=None):
 
     end = False
     port = '/dev/ttyACM0'
+    offset = 0
+    fade = 0
+    dataStream = []
+    foundStream = False
 
     if argv is None:
         argv = sys.argv
@@ -99,9 +124,21 @@ def main(argv=None):
             print "python SendLed.py [OPTIONS]"
             print "    -?                 Options Help"
             print "    -port=portName     COM port number, defaults to /dev/ttyACM0"
+            print "    -offset=offset     Byte offset to apply data"
+            print "    -fade=fadeTime     Fade time in ms"
+            print "    -data=dataBytes    Hex data bytes (must be last parameter)"
             end = True
         elif arg.startswith('-port='):
             port = arg.replace('-port=','',1)
+        elif arg.startswith('-offset='):
+            offset = int(arg.replace('-offset=','',1), 0)
+        elif arg.startswith('-fade='):
+            fade = int(arg.replace('-fade=','',1), 0)
+        elif arg.startswith('-data='):
+            dataStream.append(arg.replace('-data=','',1))
+            foundStream = True
+        elif foundStream:
+            dataStream.append(arg) 
     if end:
         return 0
 
@@ -110,32 +147,25 @@ def main(argv=None):
     except serial.SerialException:
         print "\nCould not open " + port
         return 1
-    CARD_ADDR = 0x20
-    NEO_FADE_CMD = 0x40
-    offset = 0
-    fadeTime = 0
+
+    if foundStream:
+        sendFadeCmd(ser, offset, fade, dataStream)
+        ser.close()
+        return 0
+
     while (not end):
-        print "Enter string of serial LED data [ex:  0x11 0x22 0x33]:"
+        print "offset = {0}, fade = {1} ms.  Enter string of serial LED data [ex:  0x11 0x22 0x33]:".format(offset,fade)
         msg = sys.stdin.readline()
-        msgBytes = msg.split()
-        if (len(msgBytes) != 0):
-            cmdArr = []
-            cmdArr.append(chr(CARD_ADDR))
-            cmdArr.append(chr(NEO_FADE_CMD))
-            cmdArr.append(chr((offset >> 8) & 0xff))
-            cmdArr.append(chr(offset & 0xff))
-            dataLen = len(msgBytes)
-            cmdArr.append(chr((dataLen >> 8) & 0xff))
-            cmdArr.append(chr(dataLen & 0xff))
-            cmdArr.append(chr((fadeTime >> 8) & 0xff))
-            cmdArr.append(chr(fadeTime & 0xff))
-            for indByte in msgBytes:
-                cmdArr.append(chr(int(indByte, 16)))
-            cmdArr.append(calcCrc8(cmdArr))
-            sendCmd = ''.join(cmdArr)
-            ser.write(sendCmd)
+        if msg.startswith('-offset='):
+            offset = int(msg.replace('-offset=','',1))
+        elif msg.startswith('-fade='):
+            fade = int(msg.replace('-fade=','',1))
         else:
-            end = True
+            msgBytes = msg.split()
+            if (len(msgBytes) != 0):
+                sendFadeCmd(ser, offset, fade, msgBytes)
+            else:
+                end = True
     ser.close()
     return (0)
 

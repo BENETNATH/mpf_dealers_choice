@@ -20,9 +20,9 @@
 #               PPP     OOOOOOOO     PPP
 #              PPPPP      OOOO      PPPPP
 #
-# @file:   STM32card4.py
+# @file:   STM32card7.py
 # @author: Benoit Petit-D
-# @date:   18/04/2020
+# @date:   31/07/2022
 #
 # @note:   Open Pinball Project
 #          Copyright 2012-2016, Hugh Spahr
@@ -51,7 +51,7 @@ testVers = '00.00.01'
 import rs232Intf
 
 # Config inputs as all state inputs
-wingCfg = [ [ rs232Intf.WING_INP, rs232Intf.WING_SOL, rs232Intf.WING_INP, rs232Intf.WING_SOL ] ]
+wingCfg = [ [ rs232Intf.WING_INP, rs232Intf.WING_INCAND, rs232Intf.WING_INP, rs232Intf.WING_INCAND ] ]
 
 # Config inputs as all state inputs
 inpCfg = [ [ rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, \
@@ -62,14 +62,3 @@ inpCfg = [ [ rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP
              rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, \
              rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, \
              rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE ] ]
-
-# solenoid config
-solCfg  = [ [ '\x00', '\x00', '\x00', '\x00', '\x00', '\x00', \
-                '\x00', '\x00', '\x00', '\x00', '\x00', '\x00', \
-                rs232Intf.CFG_SOL_USE_SWITCH, '\x20', '\x00', rs232Intf.CFG_SOL_USE_SWITCH, '\x10', '\x00', \
-                rs232Intf.CFG_SOL_USE_SWITCH, '\x20', '\x00', rs232Intf.CFG_SOL_USE_SWITCH, '\x10', '\x00', \
-                '\x00', '\x00', '\x00', '\x00', '\x00', '\x00', \
-                '\x00', '\x00', '\x00', '\x00', '\x00', '\x00', \
-                rs232Intf.CFG_SOL_USE_SWITCH, '\x20', '\x00', rs232Intf.CFG_SOL_USE_SWITCH, '\x10', '\x00', \
-                rs232Intf.CFG_SOL_USE_SWITCH, '\x20', '\x00', rs232Intf.CFG_SOL_USE_SWITCH, '\x10', '\x00' ] ]
-

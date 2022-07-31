@@ -20,12 +20,12 @@
 #               PPP     OOOOOOOO     PPP
 #              PPPPP      OOOO      PPPPP
 #
-# @file:   STM32card4.py
-# @author: Benoit Petit-D
-# @date:   18/04/2020
+# @file:   testerCfg.py
+# @author: Hugh Spahr
+# @date:   05/08/2016
 #
 # @note:   Open Pinball Project
-#          Copyright 2012-2016, Hugh Spahr
+#          Copyright 2012-2015, Hugh Spahr
 #
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -42,7 +42,8 @@
 #
 #===============================================================================
 #
-# TO BE DONE
+# This configures a processor board to be used as a wing board tester.  Wing 0
+# is configured as an incandescent board, and wing 1 is a solenoid board tester.
 #
 #===============================================================================
 
@@ -51,7 +52,7 @@ testVers = '00.00.01'
 import rs232Intf
 
 # Config inputs as all state inputs
-wingCfg = [ [ rs232Intf.WING_INP, rs232Intf.WING_SOL, rs232Intf.WING_INP, rs232Intf.WING_SOL ] ]
+wingCfg = [ [ rs232Intf.WING_INCAND, rs232Intf.WING_SOL, rs232Intf.WING_INP, rs232Intf.WING_INP ] ]
 
 # Config inputs as all state inputs
 inpCfg = [ [ rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, \
@@ -66,10 +67,10 @@ inpCfg = [ [ rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP_STATE, rs232Intf.CFG_INP
 # solenoid config
 solCfg  = [ [ '\x00', '\x00', '\x00', '\x00', '\x00', '\x00', \
                 '\x00', '\x00', '\x00', '\x00', '\x00', '\x00', \
-                rs232Intf.CFG_SOL_USE_SWITCH, '\x20', '\x00', rs232Intf.CFG_SOL_USE_SWITCH, '\x10', '\x00', \
-                rs232Intf.CFG_SOL_USE_SWITCH, '\x20', '\x00', rs232Intf.CFG_SOL_USE_SWITCH, '\x10', '\x00', \
+                rs232Intf.CFG_SOL_USE_SWITCH, '\x30', '\x04', rs232Intf.CFG_SOL_USE_SWITCH, '\x30', '\x04', \
+                rs232Intf.CFG_SOL_USE_SWITCH, '\x20', '\x00', rs232Intf.CFG_SOL_USE_SWITCH, '\x20', '\x00', \
                 '\x00', '\x00', '\x00', '\x00', '\x00', '\x00', \
                 '\x00', '\x00', '\x00', '\x00', '\x00', '\x00', \
-                rs232Intf.CFG_SOL_USE_SWITCH, '\x20', '\x00', rs232Intf.CFG_SOL_USE_SWITCH, '\x10', '\x00', \
-                rs232Intf.CFG_SOL_USE_SWITCH, '\x20', '\x00', rs232Intf.CFG_SOL_USE_SWITCH, '\x10', '\x00' ] ]
+                '\x00', '\x00', '\x00', '\x00', '\x00', '\x00', \
+                '\x00', '\x00', '\x00', '\x00', '\x00', '\x00' ] ]
 
